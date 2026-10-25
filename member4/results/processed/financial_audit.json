@@ -1,0 +1,167 @@
+{
+  "data": {
+    "status": "PASSED",
+    "rows": 9301,
+    "counts": [
+      [
+        5426,
+        184,
+        1
+      ],
+      [
+        101,
+        151,
+        2
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        185,
+        70,
+        0
+      ],
+      [
+        154,
+        2124,
+        71
+      ],
+      [
+        0,
+        28,
+        64
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        74,
+        19
+      ],
+      [
+        0,
+        64,
+        580
+      ]
+    ],
+    "raw_sha256": "f94378e505b286168d8dd466cc3a30bb12606ba34084d7ac53de953c75ba2ecd",
+    "canonical_sha256": "44b32645d54961aa0d4b0404a783dc982a2c0067063bd4de3a08b830fea03a9c"
+  },
+  "forecast_columns": [
+    "state",
+    "next_y",
+    "next_stress",
+    "stress_pred",
+    "categorical_logloss",
+    "categorical_brier",
+    "stress_logloss",
+    "stress_brier",
+    "event_pred",
+    "event_truth",
+    "event_brier",
+    "origin",
+    "date",
+    "target_date",
+    "year",
+    "model",
+    "event_eligible"
+  ],
+  "recomputed_historical_scores": [
+    {
+      "model": "binary30_k1",
+      "n_event": 2943,
+      "event_brier": 0.03027926265987625,
+      "next_category_logloss": 0.08255905295731011
+    },
+    {
+      "model": "binary30_k2",
+      "n_event": 2943,
+      "event_brier": 0.029634746305721466,
+      "next_category_logloss": 0.07780827796139723
+    },
+    {
+      "model": "ternary20_30_k1",
+      "n_event": 2943,
+      "event_brier": 0.029131339426641284,
+      "next_category_logloss": 0.3035598716247364
+    },
+    {
+      "model": "ternary20_30_k2",
+      "n_event": 2943,
+      "event_brier": 0.028651323157517054,
+      "next_category_logloss": 0.2796911817313133
+    },
+    {
+      "model": "ternary20_30_k3",
+      "n_event": 2943,
+      "event_brier": 0.028712198763133093,
+      "next_category_logloss": 0.2723110208037944
+    }
+  ],
+  "dp_timing": {
+    "repeats": 100,
+    "all_nine_median_seconds": 0.00207237750009881,
+    "per_state_median_seconds": 0.00023026416667764552
+  },
+  "exact_events": [
+    {
+      "state": "00",
+      "probability": 0.0020270020290881602,
+      "rational": "150527812208788782289964259730003277429/74261303170230759245842935354411462890625"
+    },
+    {
+      "state": "01",
+      "probability": 0.04185742910685744,
+      "rational": "6610396716267382077193464748444232497/157926486583582609651645263098988853125"
+    },
+    {
+      "state": "02",
+      "probability": 0.29556214375511,
+      "rational": "381898493847860334412640842047049/1292108958866819420553861734203125"
+    },
+    {
+      "state": "10",
+      "probability": 0.009599516439426685,
+      "rational": "97738167689715643457131859263085204459/10181571989219166011523588196921090546875"
+    },
+    {
+      "state": "11",
+      "probability": 0.07148326362037323,
+      "rational": "34618435919251717031781453759882309569/484287288603667219812383810716468753125"
+    },
+    {
+      "state": "12",
+      "probability": 0.6399294117055573,
+      "rational": "44021947919295277156493857894418639/68791880970069465950287598728974375"
+    },
+    {
+      "state": "20",
+      "probability": 0.11950470419762513,
+      "rational": "7115472215429603194871483666414043629/59541356662100386032301685362111640625"
+    },
+    {
+      "state": "21",
+      "probability": 0.18732674956641357,
+      "rational": "10941973915862349136327937799429800387/58411166270640143295814001420173959375"
+    },
+    {
+      "state": "22",
+      "probability": 0.7823739839399814,
+      "rational": "31583128440302822853343746810543039899/40368326514708945700827859072320871875"
+    }
+  ],
+  "memory": {
+    "classical_dimension": 9,
+    "quantum_dimension": 9,
+    "classical_fixed_bits": 4,
+    "physical_memory_qubits": 4,
+    "total_qubits": 20,
+    "Cmu": 1.6326450167850848,
+    "Cq": 1.0846222615965098
+  }
+}

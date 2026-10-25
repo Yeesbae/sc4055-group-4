@@ -1,0 +1,10 @@
+{
+  "version": "V3-complete-1.0", "seed": 40552026,
+  "states": [0, 1, 4, 5, 8], "powers": [0, 1, 2, 4],
+  "shots_per_stage": [25, 100, 200], "repetitions": 200,
+  "pilot_repetitions": 20, "bootstrap_repetitions": 3000,
+  "mode": "ideal-distribution resampling from verified compiled gate circuits",
+  "budget_units": "one six-step A or A-dagger for quantum; one six-step generated path for Monte Carlo",
+  "alias_diagnostic": "all likelihood modes retained; gap < 2 flagged as ambiguous, never removed",
+  "failure_definition": "optimizer success false; accuracy tails reported separately"
+}

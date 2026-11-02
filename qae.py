@@ -225,7 +225,7 @@ OUTPUT_DIR = Path("output")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # For 2 state uses: flag_qubit=3 and K_max=5
-def run_experiment(A, Q, p_true, trials=300, K_max=4, shots=100, flag_qubit=15):
+def run_experiment(A, Q, p_true, trials=300, K_max=4, shots=100, flag_qubit=19):
     """RMSE vs query count for LIS, EIS and classical Monte Carlo at matched N."""
     clear_cache()
     results = {"LIS": [], "EIS": [], "Classical": []}

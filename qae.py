@@ -16,6 +16,8 @@ from pathlib import Path
 
 import json
 
+from member2.sc4055_2 import build_A_structured
+
 def prob_to_angle(prob):
     return 2 * np.arcsin(np.sqrt(prob))
 
@@ -84,63 +86,26 @@ def build_A_markov_loss():
 with open("model/nine_state_model_specification.json") as f:   # need to adjust path to Member 1's file
     SPEC = json.load(f)
 
-E_V3 = np.array(SPEC["emission_probabilities"]) # row 3*a + b = history "ab"
 REF_V3 = SPEC["exact_model_event_probabilities"]
 
-HI = lambda d: 2 * d        # day d's high bit (1 = VIX >= 30)
-LO = lambda d: 2 * d + 1    # day d's low bit
+HI_M2 = lambda t: 4 + 2 * t + 1    # Member 2's layout: out_t on qubits (4+2t, 5+2t); high bit = VIX >= 30
 
-def load_day(qc, d, probs, ctrls=()):
-    """Load (p0, p1, p2) onto day d's two qubits, conditioned on all `ctrls` being 1."""
-    p0, p1, p2 = probs
-    ctrls = list(ctrls)
-    
-    if ctrls:
-        qc.append(RYGate(prob_to_angle(p2)).control(len(ctrls)), ctrls + [HI(d)])
-    else:
-        qc.ry(prob_to_angle(p2), HI(d))
-        
-    qc.x(HI(d))
-    qc.append(RYGate(prob_to_angle(p1/(p0+p1))).control(len(ctrls) + 1), ctrls + [HI(d), LO(d)])
-    qc.x(HI(d))
-    
-def flips_for(d, s):
-    """Qubits to X-flip so day d matches category s as all-ones."""
-    return {0: [HI(d), LO(d)], 1: [HI(d)], 2: [LO(d)]}[s]
+def build_A_v3_marked(start, L=6):
+    """Member 2's A for history index `start` (0-8), plus a >=3-of-6 counter oracle; flag on qubit 19."""
+    A_mem = build_A_structured(start, L)       # 16 qubits: 4 memory + 12 output
+    n = A_mem.num_qubits
+    qc = QuantumCircuit(n + 4)
+    qc.compose(A_mem, range(n), inplace=True)
 
-def build_A_v3(a, b, L=6):
-    """Prepare all L-day VIX futures given the last two observed categories (a, b)."""
-    qc = QuantumCircuit(16)
+    c0, c1, c2, flag = n, n + 1, n + 2, n + 3  # 16, 17, 18, 19
+    for t in range(L):                         # count days with VIX >= 30
+        qc.mcx([HI_M2(t), c0, c1], c2)
+        qc.ccx(HI_M2(t), c0, c1)
+        qc.cx(HI_M2(t), c0)
 
-    # Day 0: history (a, b) is known -> no controls
-    load_day(qc, 0, E_V3[3 * a + b])
-
-    # Day 1: depends on (b, day 0)
-    for s in range(3):
-        fl = flips_for(0, s)
-        qc.x(fl)
-        load_day(qc, 1, E_V3[3*b + s], ctrls=[HI(0), LO(0)])
-        qc.x(fl)
-
-    # Days 2..L-1: depend on (day d-2, day d-1)
-    for d in range(2, L):
-        for s1 in range(3):
-            for s2 in range(3):
-                fl = flips_for(d - 2, s1) + flips_for(d - 1, s2)
-                ctrls = [HI(d - 2), LO(d - 2), HI(d - 1), LO(d - 1)]
-                qc.x(fl)
-                load_day(qc, d, E_V3[3*s1 + s2], ctrls)
-                qc.x(fl)
-        
-    c0, c1, c2 = 12, 13, 14
-    for d in range(L):
-        qc.mcx([HI(d), c0, c1], c2)
-        qc.ccx(HI(d), c0, c1)
-        qc.cx(HI(d), c0)
-        
-    qc.cx(c2, 15)
+    qc.cx(c2, flag)                            # flag = count >= 3
     qc.x(c2)
-    qc.mcx([c2, c1, c0], 15)
+    qc.mcx([c2, c1, c0], flag)
     qc.x(c2)
     return qc
 

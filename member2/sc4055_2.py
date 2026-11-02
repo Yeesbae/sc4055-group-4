@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1whhW4UYy9v63trrlrEXjfpqKWNgcgjw6
 """
 
-!pip install qiskit qiskit-aer numpy scipy jax
+# !pip install qiskit qiskit-aer numpy scipy jax
 
 # ---- cell 2: classical VIX model copied from chen zui
 from fractions import Fraction
@@ -107,8 +107,8 @@ def event_mask(L=HORIZON, k=THRESHOLD):
     return mask
 
 E = emission_matrix()
-for i, h in enumerate(STATES):
-    print(h, sum(COUNTS[h]), np.round(E[i], 6), f"P(event)={float(event_probability_exact(i)):.6f}")
+# for i, h in enumerate(STATES):
+#     print(h, sum(COUNTS[h]), np.round(E[i], 6), f"P(event)={float(event_probability_exact(i)):.6f}")
 
 N_MEM, N_OUT = 4, 2
 DM, DX = 2 ** N_MEM, 2 ** N_OUT
@@ -143,12 +143,12 @@ for i in range(9):
 U_S = build_unitary(S, Phi)
 KRAUS = np.stack([U_S.reshape(DM, DX, DM, DX)[:, x, :, 0] for x in ALPHABET])
 
-np.set_printoptions(precision=3, suppress=True, linewidth=140)
-print("Gram matrix:\n", SIG.T @ SIG)
-print("Gram rank:", np.linalg.matrix_rank(SIG.T @ SIG, tol=1e-10))
-print("Gram match:", abs(S.T @ S - Phi.T @ Phi).max())
-print("Unitarity:", abs(U_S.T @ U_S - np.eye(64)).max())
-print("U S = Phi:", abs(U_S @ S - Phi).max())
+# np.set_printoptions(precision=3, suppress=True, linewidth=140)
+# print("Gram matrix:\n", SIG.T @ SIG)
+# print("Gram rank:", np.linalg.matrix_rank(SIG.T @ SIG, tol=1e-10))
+# print("Gram match:", abs(S.T @ S - Phi.T @ Phi).max())
+# print("Unitarity:", abs(U_S.T @ U_S - np.eye(64)).max())
+# print("U S = Phi:", abs(U_S @ S - Phi).max())
 
 #  building qiskit circuit, this part is useful for chris =====================================
 
@@ -217,196 +217,3 @@ def build_A_structured(start, L=HORIZON):
         structured_step(qc, F, S_, outs[t], th_hi, th_lo)
         F, S_ = S_, F                        # slots swap roles
     return qc
-
-# nice diagram of circuit ===================================================================
-print(build_A(8).draw(fold=200))
-print("Generic A CNOTs:", gate_counts(build_A(8)))
-print("Structured A CNOTs:", gate_counts(build_A_structured(8)))
-
-
-# validation ================================================================================
-from qiskit_aer import AerSimulator
-
-MASK = event_mask()
-print("EXACT")
-for s, h in enumerate(STATES):
-    exact = future_distribution(s)
-    pg, _ = output_distribution(build_A(s))
-    ps, leak = output_distribution(build_A_structured(s))
-    print(h, f"p={float(event_probability_exact(s)):.6f}",
-          f"generic err={abs(pg - exact).max():.1e}", f"structured err={abs(ps - exact).max():.1e}",
-          f"leak={leak:.1e}")
-
-SHOTS = 20000
-sim = AerSimulator(seed_simulator=2026)
-print("\nSAMPLED")
-for s, h in enumerate(STATES):
-    qc = build_A_structured(s)
-    creg = ClassicalRegister(2 * HORIZON, "c"); qc.add_register(creg)
-    qc.measure(list(range(4, 4 + 2 * HORIZON)), creg)
-    counts = sim.run(transpile(qc, sim, optimization_level=1, seed_transpiler=7), shots=SHOTS).result().get_counts()
-    obs = np.zeros((3,) * HORIZON); invalid = 0
-    for bits, c in counts.items():
-        word = tuple((int(bits, 2) >> (2 * t)) & 3 for t in range(HORIZON))
-        if 3 in word: invalid += c
-        else: obs[word] += c
-    exact = future_distribution(s); p = float(event_probability_exact(s))
-    p_hat = obs[MASK].sum() / SHOTS; z = (p_hat - p) / np.sqrt(p * (1 - p) / SHOTS)
-    e, o = exact.ravel() * SHOTS, obs.ravel(); big = e >= 5
-    f_obs = np.append(o[big], o[~big].sum()); f_exp = np.append(e[big], e[~big].sum())
-    if f_exp[-1] < 5:
-        f_obs, f_exp = f_obs[:-1], f_exp[:-1]
-        f_obs[np.argmin(f_exp)] += o[~big].sum(); f_exp[np.argmin(f_exp)] += e[~big].sum()
-    f_exp *= f_obs.sum() / f_exp.sum()
-    print(h, f"exact {p:.4f} sampled {p_hat:.4f} z={z:+.2f}",
-          f"chi2 p={chisquare(f_obs, f_exp).pvalue:.3f} invalid={invalid}")
-
-# memory =========================================================================================
-PI = stationary()
-rho = (SIG * PI) @ SIG.T
-ev = np.clip(np.sort(np.linalg.eigvalsh(rho))[::-1], 0, None)
-nz = ev[ev > 1e-15]
-print("C_mu =", -(PI * np.log2(PI)).sum(), "bits")
-print("C_q  =", -(nz * np.log2(nz)).sum(), "bits")
-print("D_q  =", int((ev > 1e-12).sum()))
-print("rho eigenvalues:", np.round(ev[:9], 6))
-print("cumulative:", np.round(np.cumsum(ev[:9]), 5))
-
-# reduced models ========================================================
-import jax, jax.numpy as jnp
-jax.config.update("jax_enable_x64", True)
-
-L = HORIZON
-TARGET = np.stack([future_distribution(s).ravel() for s in range(9)])
-MASKF = MASK.ravel(); P_EVENT = TARGET[:, MASKF].sum(1)
-
-def kl_objective(P_model):
-    Pm = jnp.clip(P_model, 1e-300, None)
-    return jnp.sum(PI[:, None] * jnp.where(TARGET > 0, TARGET * (jnp.log(TARGET) - jnp.log(Pm)), 0.0)) / np.log(2)
-
-def summarize(P_model):
-    P_model = np.asarray(P_model); err = P_model[:, MASKF].sum(1) - P_EVENT
-    return {"J_bits": float(kl_objective(P_model)),
-            "event_err_weighted": float((PI * abs(err)).sum()),
-            "event_prob": dict(zip(STATES, P_model[:, MASKF].sum(1).round(4).tolist()))}
-
-def hmm_futures(T, init):
-    v = init[:, None, :]
-    for _ in range(L):
-        v = jnp.einsum("bwc,xcd->bwxd", v, T).reshape(9, -1, T.shape[1])
-    return v.sum(-1)
-
-def q_futures(K, psi):
-    v = psi[:, None, :]
-    for _ in range(L):
-        v = jnp.einsum("xdc,bwc->bwxd", K, v).reshape(9, -1, K.shape[1])
-    return jnp.sum(v ** 2, -1)
-
-def partitions(n, k):
-    def rec(i, labels, m):
-        if i == n:
-            if m == k: yield tuple(labels)
-            return
-        for c in range(m): yield from rec(i + 1, labels + [c], m)
-        if m < k: yield from rec(i + 1, labels + [m], m + 1)
-    yield from rec(0, [], 0)
-
-def clustered_model(labels, D):
-    T = labelled_transitions(); lab = np.array(labels); Tc = np.zeros((3, D, D))
-    for C in range(D):
-        mem_ = lab == C; w = PI[mem_] / PI[mem_].sum()
-        for D2 in range(D):
-            Tc[:, C, D2] = np.einsum("i,xij->x", w, T[:, mem_][:, :, lab == D2])
-    return Tc, np.eye(D)[lab]
-
-def best_clustering(D):
-    best = None
-    for labels in partitions(9, D):
-        Tc, init = clustered_model(labels, D)
-        J = float(kl_objective(hmm_futures(jnp.array(Tc), jnp.array(init))))
-        if best is None or J < best[0]: best = (J, labels, Tc, init)
-    return best
-
-def unpack_c(theta, D):
-    T = jax.nn.softmax(theta[: D * 3 * D].reshape(D, 3 * D), axis=1).reshape(D, 3, D).transpose(1, 0, 2)
-    mu = jax.nn.softmax(theta[D * 3 * D:]); inits = []
-    for a in range(3):
-        va = mu @ T[a]
-        for b in range(3):
-            vb = va @ T[b]; inits.append(vb / vb.sum())
-    return T, jnp.stack(inits)
-
-def fit(obj, starts):
-    f = jax.jit(obj); g = jax.jit(jax.grad(obj)); best = None
-    for th0 in starts:
-        try:
-            r = minimize(lambda t: float(f(t)), th0, jac=lambda t: np.asarray(g(t)),
-                         method="L-BFGS-B", options={"maxiter": 5000})
-        except Exception:
-            continue
-        if np.isfinite(r.fun) and (best is None or r.fun < best.fun): best = r
-    return best
-
-def fit_classical(D, init_T, restarts=8, seed=0):
-    rng = np.random.default_rng(seed)
-    lg = np.log(np.clip(init_T.transpose(1, 0, 2).reshape(D, 3 * D), 1e-9, None))
-    starts = [np.concatenate([lg.ravel(), np.zeros(D)])] + [rng.normal(0, 1, D * 3 * D + D) for _ in range(restarts)]
-    r = fit(lambda th: kl_objective(hmm_futures(*unpack_c(th, D))), starts)
-    return unpack_c(jnp.array(r.x), D)
-
-def unpack_q(theta, D):
-    A = theta[: 3 * D * D].reshape(3 * D, D)
-    w, Uv = jnp.linalg.eigh(A.T @ A)
-    K = (A @ (Uv * (1 / jnp.sqrt(w))) @ Uv.T).reshape(3, D, D)   # polar -> isometry
-    phi = theta[3 * D * D:]; psis = []
-    for a in range(3):
-        for b in range(3):
-            v = K[b] @ (K[a] @ phi); psis.append(v / jnp.linalg.norm(v))
-    return K, jnp.stack(psis)
-
-def projected_start(D):
-    w, Uv = np.linalg.eigh(rho); P = Uv[:, np.argsort(w)[::-1][:D]]
-    A = np.concatenate([P.T @ KRAUS[x] @ P for x in range(3)], axis=0)
-    return np.concatenate([A.ravel(), P.T @ SIG @ PI])
-
-def fit_quantum(D, restarts=12, seed=0):
-    rng = np.random.default_rng(seed)
-    starts = [projected_start(D)] + [rng.normal(0, 1, 3 * D * D + D) for _ in range(restarts)]
-    r = fit(lambda th: kl_objective(q_futures(*unpack_q(th, D))), starts)
-    K, psi = unpack_q(jnp.array(r.x), D)
-    return np.asarray(K), np.asarray(psi)
-
-results, reduced = {}, {}
-for D in (2, 3, 4, 5, 6, 8):
-    _, labels, Tc, initc = best_clustering(D)
-    clus = summarize(hmm_futures(jnp.array(Tc), jnp.array(initc)))
-    Tg, initg = fit_classical(D, Tc)
-    hmm = summarize(hmm_futures(Tg, initg))
-    K, psi = fit_quantum(D)
-    qua = summarize(q_futures(jnp.array(K), jnp.array(psi)))
-    results[D] = {"clustering": clus, "classical_hmm": hmm, "quantum": qua}
-    reduced[D] = (K, psi)
-    print(f"D={D}: J  clustering {clus['J_bits']:.4f}  HMM {hmm['J_bits']:.4f}  quantum {qua['J_bits']:.5f} | "
-          f"event err  {clus['event_err_weighted']:.4f}  {hmm['event_err_weighted']:.4f}  {qua['event_err_weighted']:.4f}")
-
-# ignore for now, 14 qubit circuit for reduced version
-D = 4
-K, psi = reduced[D]
-S4 = np.zeros((D * 4, D)); Phi4 = np.zeros((D * 4, D))
-for m in range(D):
-    S4[m * 4, m] = 1
-    for x in range(3):
-        Phi4[np.arange(D) * 4 + x, m] += K[x][:, m]
-U4 = build_unitary(S4, Phi4)
-
-for s, h in enumerate(STATES):
-    qc = build_A(s, U=U4, sig=psi.T, n_mem=2)
-    p, _ = output_distribution(qc, n_mem=2)
-    v = psi[s][None, :]
-    for _ in range(HORIZON):
-        v = np.einsum("xdc,wc->wxd", K, v).reshape(-1, D)
-    p_model = (v ** 2).sum(1).reshape((3,) * HORIZON)
-    print(h, f"circuit vs model err={abs(p - p_model).max():.1e}",
-          f"P(event) reduced={p[MASK].sum():.4f} exact={float(event_probability_exact(s)):.4f}")
-print("Reduced A:", build_A(8, U=U4, sig=psi.T, n_mem=2).num_qubits, "qubits,",
-      gate_counts(build_A(8, U=U4, sig=psi.T, n_mem=2)))

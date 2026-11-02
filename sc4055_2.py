@@ -9,7 +9,7 @@ Original file is located at
 
 !pip install qiskit qiskit-aer numpy scipy jax
 
-# ---- Cell 2: classical VIX model (Member 1's frozen V3 parameters, copied in) ----
+# ---- cell 2: classical VIX model copied from chen zui
 from fractions import Fraction
 from itertools import product
 import numpy as np
@@ -17,7 +17,7 @@ from scipy.linalg import null_space
 from scipy.optimize import minimize
 from scipy.stats import chisquare
 
-# == copied from Member 1: models/nine_state_model_specification.json ==
+# == copied from chen zui: models/nine_state_model_specification.json ==
 LABELS = ["00", "01", "02", "10", "11", "12", "20", "21", "22"]
 SPEC_COUNTS = [[5426, 184, 1], [101, 151, 2], [0, 1, 0],
                [185, 70, 0], [154, 2124, 71], [0, 28, 64],
@@ -36,7 +36,7 @@ LAMBDA = [[0, 1, 2], [3, 4, 5], [6, 7, 8],
           [0, 1, 2], [3, 4, 5], [6, 7, 8]]
 EVENT_L, EVENT_K = 6, 3
 
-# == copied from Member 1: src/sc4055/financial.py ==
+# == copied from chen zui: src/sc4055/financial.py ==
 P_R = [[Fraction(x) for x in row] for row in EMISSION_RATIONAL]
 P = np.array(P_R, dtype=float)
 NEXT = np.array(LAMBDA)
@@ -48,7 +48,7 @@ def condition(observed_categories):
     if a not in (0, 1, 2) or b not in (0, 1, 2): raise ValueError('Categories must be 0, 1, or 2')
     return int(3 * a + b)
 
-# == copied from Member 1: src/sc4055/classical.py, function dp ==
+# == copied from chen zui: src/sc4055/classical.py, function dp ==
 def dp(s, L=6, threshold=3, rational=False):
     zero = Fraction(0) if rational else 0.
     a = [[zero for _ in range(threshold + 1)] for _ in range(9)]; a[s][0] = 1
@@ -60,7 +60,7 @@ def dp(s, L=6, threshold=3, rational=False):
         a = b
     return sum(row[threshold] for row in a)
 
-# == names the rest of this notebook uses, mapped onto Member 1's objects ==
+# == names the rest of this notebook uses ========================
 ALPHABET = (0, 1, 2)
 M = 3
 STATES = list(LABELS)
@@ -79,7 +79,7 @@ def successor(i, x):
 def event_probability_exact(start, L=HORIZON, k=THRESHOLD):
     return dp(start, L=L, threshold=k, rational=True)
 
-# == not in Member 1's code; needed by Cells 3-8 ==
+# == will be handy later ==
 def labelled_transitions():
     E_ = emission_matrix(); T = np.zeros((M, 9, 9))
     for i in range(9):
@@ -126,6 +126,7 @@ def memory_states():
 def kron_out(mem_vec, x):            # |mem>|x>, index = mem*4 + x
     v = np.zeros(DM * DX); v[np.arange(DM) * DX + x] = mem_vec; return v
 
+# must be unitary to make physical sense
 def build_unitary(S, Phi):
     """Unitary with U S = Phi (same Gram matrix), completed on the complements."""
     Qs, R = np.linalg.qr(S)
@@ -148,6 +149,8 @@ print("Gram rank:", np.linalg.matrix_rank(SIG.T @ SIG, tol=1e-10))
 print("Gram match:", abs(S.T @ S - Phi.T @ Phi).max())
 print("Unitarity:", abs(U_S.T @ U_S - np.eye(64)).max())
 print("U S = Phi:", abs(U_S @ S - Phi).max())
+
+#  building qiskit circuit, this part is useful for chris =====================================
 
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, transpile
 from qiskit.circuit.library import StatePreparation, UnitaryGate, UCRYGate
@@ -215,10 +218,13 @@ def build_A_structured(start, L=HORIZON):
         F, S_ = S_, F                        # slots swap roles
     return qc
 
+# nice diagram of circuit ===================================================================
 print(build_A(8).draw(fold=200))
 print("Generic A CNOTs:", gate_counts(build_A(8)))
 print("Structured A CNOTs:", gate_counts(build_A_structured(8)))
 
+
+# validation ================================================================================
 from qiskit_aer import AerSimulator
 
 MASK = event_mask()
@@ -255,6 +261,7 @@ for s, h in enumerate(STATES):
     print(h, f"exact {p:.4f} sampled {p_hat:.4f} z={z:+.2f}",
           f"chi2 p={chisquare(f_obs, f_exp).pvalue:.3f} invalid={invalid}")
 
+# memory =========================================================================================
 PI = stationary()
 rho = (SIG * PI) @ SIG.T
 ev = np.clip(np.sort(np.linalg.eigvalsh(rho))[::-1], 0, None)
@@ -265,6 +272,7 @@ print("D_q  =", int((ev > 1e-12).sum()))
 print("rho eigenvalues:", np.round(ev[:9], 6))
 print("cumulative:", np.round(np.cumsum(ev[:9]), 5))
 
+# reduced models ========================================================
 import jax, jax.numpy as jnp
 jax.config.update("jax_enable_x64", True)
 
@@ -381,6 +389,7 @@ for D in (2, 3, 4, 5, 6, 8):
     print(f"D={D}: J  clustering {clus['J_bits']:.4f}  HMM {hmm['J_bits']:.4f}  quantum {qua['J_bits']:.5f} | "
           f"event err  {clus['event_err_weighted']:.4f}  {hmm['event_err_weighted']:.4f}  {qua['event_err_weighted']:.4f}")
 
+# ignore for now, 14 qubit circuit for reduced version
 D = 4
 K, psi = reduced[D]
 S4 = np.zeros((D * 4, D)); Phi4 = np.zeros((D * 4, D))

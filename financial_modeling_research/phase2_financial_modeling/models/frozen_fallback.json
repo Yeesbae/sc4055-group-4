@@ -1,0 +1,97 @@
+{
+  "model_version": "V3.0-Phase2-1.0",
+  "tag": "binary30_k0",
+  "observation": "binary30",
+  "thresholds": [
+    30.0
+  ],
+  "indexing": "oldest to newest, state integer is base-m encoding; symbols >= threshold use upper bin",
+  "state_labels": [
+    "empty"
+  ],
+  "order": 0,
+  "alphabet": [
+    0,
+    1
+  ],
+  "alpha_per_symbol": 0.5,
+  "counts": [
+    [
+      8564,
+      737
+    ]
+  ],
+  "emission_probabilities": [
+    [
+      0.9207159750591271,
+      0.07928402494087293
+    ]
+  ],
+  "emission_probabilities_rational": [
+    [
+      "17129/18604",
+      "1475/18604"
+    ]
+  ],
+  "lambda": [
+    [
+      0,
+      0
+    ]
+  ],
+  "T_emission": [
+    [
+      [
+        0.9207159750591271
+      ]
+    ],
+    [
+      [
+        0.07928402494087293
+      ]
+    ]
+  ],
+  "T": [
+    [
+      1.0
+    ]
+  ],
+  "stationary_occupancy": [
+    1.0
+  ],
+  "reachable_states": [
+    0
+  ],
+  "reachability_proof": "Dirichlet smoothing gives every symbol positive probability; each length-k word reaches its own context from any start. Irreducible with self loops, unique stationary distribution.",
+  "causal_minimization": {
+    "D_c": 1,
+    "blocks": [
+      0
+    ],
+    "refinement_class_counts": [
+      1
+    ],
+    "exact_equality": "rational counts plus rational Dirichlet prior; no distance tolerance",
+    "scope": "causal states of this positive fitted finite-order process only"
+  },
+  "event": {
+    "kind": "count",
+    "L": 6,
+    "K": 3
+  },
+  "high_symbol": 1,
+  "exact_model_event_probabilities": [
+    0.00829971845873274
+  ],
+  "enumeration_DP_max_difference": 5.204170427930421e-18,
+  "fit_coverage": [
+    "1990-01-02",
+    "2026-10-23"
+  ],
+  "data_manifest": "data/manifests/vix_manifest.json",
+  "threshold_rationale": "fixed 30 persistent stress proxy; 20 split tests moderate-state information. No official default/risk cutoff.",
+  "validation": "retrospective nested rolling-origin forecasts, prospective holdout unavailable; deployment refit is not retrospectively scored as an untouched model",
+  "uncertainty": "context_counts.csv contains nominal Dirichlet/Beta intervals; event_uncertainty.csv adds posterior propagation and dependent block refits; nonstationarity unresolved",
+  "role": "fallback",
+  "selected_tag": "binary30_k0"
+}

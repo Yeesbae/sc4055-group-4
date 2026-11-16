@@ -1,0 +1,16 @@
+{
+  "determinant": "108797889087989112754929664/3506356854839619040067776502375625",
+  "rank": 9,
+  "quantum_general_dimension_lower_bound": 3,
+  "independent_method": "exact rational Gaussian elimination, separate from modular certificate",
+  "modular": {
+    "prime": 1000000007,
+    "rank_mod_p": 9,
+    "determinant_mod_p": 206086773,
+    "rational_probability_rank_exact": 9,
+    "quantum_dimension_lower_bound": 3,
+    "classical_hidden_dimension_lower_bound": 9,
+    "proof": "All states reached after k outputs; positive prefix weights. Conditional length-k matrix is an invertible row-scaled Hankel submatrix when determinant mod p is nonzero. A fixed D-dimensional instrument has probability rank at most D^2.",
+    "limitation": "rank mod p below D is only a lower bound, not proof of rank deficiency"
+  }
+}

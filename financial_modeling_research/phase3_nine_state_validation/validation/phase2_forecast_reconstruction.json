@@ -1,0 +1,77 @@
+[
+  {
+    "model": "ternary20_30_k1",
+    "field": "event_pred",
+    "max_difference": 9.71445146547012e-17
+  },
+  {
+    "model": "ternary20_30_k1",
+    "field": "stress_pred",
+    "max_difference": 9.622294280808852e-17
+  },
+  {
+    "model": "ternary20_30_k1",
+    "field": "categorical_logloss",
+    "max_difference": 1.7763568394002505e-15
+  },
+  {
+    "model": "ternary20_30_k2",
+    "field": "event_pred",
+    "max_difference": 9.71445146547012e-17
+  },
+  {
+    "model": "ternary20_30_k2",
+    "field": "stress_pred",
+    "max_difference": 1.1102230246251565e-16
+  },
+  {
+    "model": "ternary20_30_k2",
+    "field": "categorical_logloss",
+    "max_difference": 4.440892098500626e-16
+  },
+  {
+    "model": "ternary20_30_k3",
+    "field": "event_pred",
+    "max_difference": 9.71445146547012e-17
+  },
+  {
+    "model": "ternary20_30_k3",
+    "field": "stress_pred",
+    "max_difference": 1.1102230246251565e-16
+  },
+  {
+    "model": "ternary20_30_k3",
+    "field": "categorical_logloss",
+    "max_difference": 4.440892098500626e-16
+  },
+  {
+    "model": "binary30_k2",
+    "field": "event_pred",
+    "max_difference": 9.020562075079397e-17
+  },
+  {
+    "model": "binary30_k2",
+    "field": "stress_pred",
+    "max_difference": 1.1102230246251565e-16
+  },
+  {
+    "model": "binary30_k2",
+    "field": "categorical_logloss",
+    "max_difference": 4.440892098500626e-16
+  },
+  {
+    "model": "binary30_k1",
+    "field": "event_pred",
+    "max_difference": 8.326672684688674e-17
+  },
+  {
+    "model": "binary30_k1",
+    "field": "stress_pred",
+    "max_difference": 6.591949208711867e-17
+  },
+  {
+    "model": "binary30_k1",
+    "field": "categorical_logloss",
+    "max_difference": 4.440892098500626e-16
+  }
+]

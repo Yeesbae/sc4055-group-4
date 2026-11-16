@@ -1,0 +1,77 @@
+{
+  "zero_phase_Gram": [
+    [
+      1.0
+    ]
+  ],
+  "eigenvalues_float64": [
+    1.0
+  ],
+  "gram_recurrence_max_abs": 0.0,
+  "precision_decimal_digits": 90,
+  "cholesky_squared_pivots_90digit": [
+    "1"
+  ],
+  "all_90digit_pivots_positive": true,
+  "rank_status": "full rank numerically supported at 90 digits, not an exact symbolic Gram-rank proof",
+  "analytic_validity": "G is PSD, unit diagonal and recurrent by synchronization after k outputs; independent of rank tolerance",
+  "no_global_optimization": true,
+  "memory_states_columns": [
+    [
+      1.0
+    ]
+  ],
+  "Kraus": [
+    [
+      [
+        0.7942618721344185
+      ]
+    ],
+    [
+      [
+        0.5383942003486798
+      ]
+    ],
+    [
+      [
+        0.2815666235625847
+      ]
+    ]
+  ],
+  "recurrence_residual": 1.1102230246251565e-16,
+  "completeness_residual": 0.0,
+  "stationary_classical_entropy": -0.0,
+  "stationary_quantum_entropy": -0.0,
+  "condition_number_S": 1.0,
+  "instrument_numerically_valid": true,
+  "partition": {
+    "D_c": 1,
+    "blocks": [
+      0
+    ],
+    "refinement_class_counts": [
+      1
+    ],
+    "exact_equality": "rational counts plus rational Dirichlet prior; no distance tolerance",
+    "scope": "causal states of this positive fitted finite-order process only"
+  },
+  "probability_rank": {
+    "prime": 1000000007,
+    "rank_mod_p": 1,
+    "determinant_mod_p": 1,
+    "rational_probability_rank_exact": 1,
+    "quantum_dimension_lower_bound": 1,
+    "classical_hidden_dimension_lower_bound": 1,
+    "proof": "All states reached after k outputs; positive prefix weights. Conditional length-k matrix is an invertible row-scaled Hankel submatrix when determinant mod p is nonzero. A fixed D-dimensional instrument has probability rank at most D^2.",
+    "limitation": "rank mod p below D is only a lower bound, not proof of rank deficiency"
+  },
+  "registers": {
+    "classical_predictive_states": 1,
+    "conventional_memory_qubits_upper_bound": 0,
+    "future_output_qubits_L6": 12,
+    "count_workspace_qubits": 3,
+    "event_flag": 1,
+    "total_width_upper_bound_design": 16,
+    "note": "register design estimate; no compiled circuit; ternary invalid padded label must have zero amplitude"
+  }
+}

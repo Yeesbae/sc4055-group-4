@@ -1,0 +1,4 @@
+Initial report build stopped before producing a deliverable because circuit_resources.png had zero bytes despite the plotting process completing.
+Observed exception: PIL.UnidentifiedImageError: cannot identify image file 'SC4055_V3_Phase3/figures/circuit_resources.png'
+Correction: serialize each PNG to an in-memory buffer, write complete bytes, and verify the image before continuing. SVG is also serialized before writeback. All eight figures are regenerated and verified before the final report.
+This export repair changes no numerical research results.

@@ -1,0 +1,14 @@
+test_all_nine_emission_matrices_and_stationarity (test_phase3.Phase3Tests.test_all_nine_emission_matrices_and_stationarity) ... ok
+test_certificate_does_not_reject_a_degenerate_counterexample (test_phase3.Phase3Tests.test_certificate_does_not_reject_a_degenerate_counterexample) ... ok
+test_event_DP_matches_rational_reference (test_phase3.Phase3Tests.test_event_DP_matches_rational_reference) ... ok
+test_exact_sqrt_bounds_and_all_phase_obstruction (test_phase3.Phase3Tests.test_exact_sqrt_bounds_and_all_phase_obstruction) ... ok
+test_forecast_temporal_alignment_and_preserved_phase2 (test_phase3.Phase3Tests.test_forecast_temporal_alignment_and_preserved_phase2) ... ok
+test_independent_two_step_amplitude_factorization (test_phase3.Phase3Tests.test_independent_two_step_amplitude_factorization) ... ok
+test_padded_quantum_step_and_recorded_pilot (test_phase3.Phase3Tests.test_padded_quantum_step_and_recorded_pilot) ... ok
+test_rare_row_robust_envelope_covers_fixed_draws (test_phase3.Phase3Tests.test_rare_row_robust_envelope_covers_fixed_draws) ... ok
+test_sparse_context_never_masquerades_as_observed (test_phase3.Phase3Tests.test_sparse_context_never_masquerades_as_observed) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.060s
+
+OK

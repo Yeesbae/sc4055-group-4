@@ -1,0 +1,83 @@
+{
+  "selected": {
+    "name": "binary30",
+    "k": 1,
+    "states": 2,
+    "inner_brier": 0.009755259183375104,
+    "eligible_support": true,
+    "min_training_context_count": 722
+  },
+  "options": [
+    {
+      "name": "binary30",
+      "k": 0,
+      "states": 1,
+      "inner_brier": 0.016914483006306654,
+      "eligible_support": true,
+      "min_training_context_count": 8317
+    },
+    {
+      "name": "binary30",
+      "k": 1,
+      "states": 2,
+      "inner_brier": 0.009755259183375104,
+      "eligible_support": true,
+      "min_training_context_count": 722
+    },
+    {
+      "name": "binary30",
+      "k": 2,
+      "states": 4,
+      "inner_brier": 0.009019919994647725,
+      "eligible_support": true,
+      "min_training_context_count": 89
+    },
+    {
+      "name": "binary30",
+      "k": 3,
+      "states": 8,
+      "inner_brier": 0.008566218515815044,
+      "eligible_support": false,
+      "min_training_context_count": 18
+    },
+    {
+      "name": "ternary20_30",
+      "k": 0,
+      "states": 1,
+      "inner_brier": 0.016914500314397514,
+      "eligible_support": true,
+      "min_training_context_count": 8317
+    },
+    {
+      "name": "ternary20_30",
+      "k": 1,
+      "states": 3,
+      "inner_brier": 0.009306971127285613,
+      "eligible_support": true,
+      "min_training_context_count": 722
+    },
+    {
+      "name": "ternary20_30",
+      "k": 2,
+      "states": 9,
+      "inner_brier": 0.008774100926283048,
+      "eligible_support": false,
+      "min_training_context_count": 0
+    },
+    {
+      "name": "ternary20_30",
+      "k": 3,
+      "states": 27,
+      "inner_brier": 0.008298467807634649,
+      "eligible_support": false,
+      "min_training_context_count": 0
+    }
+  ],
+  "validation_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "deploy_refit_end": "2026-10-23",
+  "claim": "future-use specification, not new confirmatory historical evidence"
+}

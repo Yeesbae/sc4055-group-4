@@ -1,0 +1,351 @@
+{
+  "versions": {
+    "qiskit": "2.2.3",
+    "rustworkx": "0.17.1",
+    "dill": "0.4.0",
+    "stevedore": "5.5.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "settings": {
+    "basis": [
+      "u",
+      "cx"
+    ],
+    "optimization_level": 1,
+    "seed_transpiler": 4055,
+    "approximation_degree": 1.0,
+    "coupling_map": "all-to-all",
+    "backend": "Qiskit core Statevector; no Aer, GPU or hardware used",
+    "max_coherent_steps": 2
+  },
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "step_compilations": [
+    {
+      "label": "generic_64x64_unitary",
+      "qubits": 6,
+      "depth": 3525,
+      "CX": 1783,
+      "U": 2893,
+      "total_gates": 4676,
+      "compile_seconds": 0.6537446859999818,
+      "input_isometry_error": 1.6007549304199625e-12
+    },
+    {
+      "label": "64x16_input_isometry",
+      "qubits": 6,
+      "depth": 2165,
+      "CX": 1096,
+      "U": 1183,
+      "total_gates": 2279,
+      "compile_seconds": 0.34316784499992536,
+      "input_isometry_error": 3.518578942070313e-12
+    }
+  ],
+  "selected_step": {
+    "label": "64x16_input_isometry",
+    "qubits": 6,
+    "depth": 2165,
+    "CX": 1096,
+    "U": 1183,
+    "total_gates": 2279,
+    "compile_seconds": 0.34316784499992536,
+    "input_isometry_error": 3.518578942070313e-12
+  },
+  "initializers": [
+    {
+      "label": "initializer_0",
+      "qubits": 4,
+      "depth": 0,
+      "CX": 0,
+      "U": 0,
+      "total_gates": 0,
+      "compile_seconds": 0.0034401159998651565
+    },
+    {
+      "label": "initializer_1",
+      "qubits": 4,
+      "depth": 15,
+      "CX": 7,
+      "U": 8,
+      "total_gates": 15,
+      "compile_seconds": 0.007014205000132279
+    },
+    {
+      "label": "initializer_2",
+      "qubits": 4,
+      "depth": 21,
+      "CX": 10,
+      "U": 12,
+      "total_gates": 22,
+      "compile_seconds": 0.008850001999917367
+    },
+    {
+      "label": "initializer_3",
+      "qubits": 4,
+      "depth": 23,
+      "CX": 11,
+      "U": 15,
+      "total_gates": 26,
+      "compile_seconds": 0.009953399000096397
+    },
+    {
+      "label": "initializer_4",
+      "qubits": 4,
+      "depth": 23,
+      "CX": 11,
+      "U": 14,
+      "total_gates": 25,
+      "compile_seconds": 0.006702034999989337
+    },
+    {
+      "label": "initializer_5",
+      "qubits": 4,
+      "depth": 23,
+      "CX": 11,
+      "U": 14,
+      "total_gates": 25,
+      "compile_seconds": 0.005360372000041025
+    },
+    {
+      "label": "initializer_6",
+      "qubits": 4,
+      "depth": 23,
+      "CX": 11,
+      "U": 14,
+      "total_gates": 25,
+      "compile_seconds": 0.005150896000031935
+    },
+    {
+      "label": "initializer_7",
+      "qubits": 4,
+      "depth": 23,
+      "CX": 11,
+      "U": 14,
+      "total_gates": 25,
+      "compile_seconds": 0.005722553999930824
+    },
+    {
+      "label": "initializer_8",
+      "qubits": 4,
+      "depth": 23,
+      "CX": 11,
+      "U": 15,
+      "total_gates": 26,
+      "compile_seconds": 0.006143185999917478
+    }
+  ],
+  "atomic_primitive_compilations": [
+    {
+      "label": "C2X_no_extra_qubits",
+      "qubits": 3,
+      "depth": 11,
+      "CX": 6,
+      "U": 8,
+      "total_gates": 14,
+      "compile_seconds": 0.0023510610001267196
+    },
+    {
+      "label": "C3X_no_extra_qubits",
+      "qubits": 4,
+      "depth": 27,
+      "CX": 14,
+      "U": 16,
+      "total_gates": 30,
+      "compile_seconds": 0.00206195700002354
+    },
+    {
+      "label": "C4X_no_extra_qubits",
+      "qubits": 5,
+      "depth": 65,
+      "CX": 36,
+      "U": 41,
+      "total_gates": 77,
+      "compile_seconds": 0.0023930639999889536
+    },
+    {
+      "label": "C19X_no_extra_qubits",
+      "qubits": 20,
+      "depth": 3518,
+      "CX": 2036,
+      "U": 2250,
+      "total_gates": 4286,
+      "compile_seconds": 0.03391632400007438
+    }
+  ],
+  "registers": {
+    "memory": 4,
+    "six_ternary_outputs": 12,
+    "counter": 3,
+    "flag": 1,
+    "total": 20,
+    "double_statevector_bytes": 16777216,
+    "dense_density_matrix_bytes": 17592186044416
+  },
+  "oracle_analytic_composition": {
+    "C4X": 12,
+    "C3X": 13,
+    "CCX": 13,
+    "CX": 1,
+    "X": 24,
+    "note": "high symbol == binary 10; comparator flag XOR(c2 OR(c1 AND c0)); counter uncomputed"
+  },
+  "oracle_estimated_from_components": {
+    "CX": 693,
+    "U": 828,
+    "depth": 1299
+  },
+  "reflection_estimated_from_components": {
+    "CX": 2036,
+    "U": 2292,
+    "depth": 3560
+  },
+  "A_L6_component_upper_estimate": {
+    "CX": 7280,
+    "U": 7941,
+    "depth": 14312
+  },
+  "A_inverse": "inverse the actual synthesized preparation including all count workspace; same estimated costs",
+  "stages_estimated": [
+    {
+      "Grover_power": 0,
+      "A_or_Adagger": 1,
+      "CX": 7280,
+      "U": 7941,
+      "depth": 14312,
+      "core_Statevector_seconds_microbenchmark_projection": 135.3244126668689
+    },
+    {
+      "Grover_power": 1,
+      "A_or_Adagger": 3,
+      "CX": 23876,
+      "U": 26116,
+      "depth": 46497,
+      "core_Statevector_seconds_microbenchmark_projection": 444.4319470046853
+    },
+    {
+      "Grover_power": 2,
+      "A_or_Adagger": 5,
+      "CX": 40472,
+      "U": 44291,
+      "depth": 78682,
+      "core_Statevector_seconds_microbenchmark_projection": 753.5394813425016
+    },
+    {
+      "Grover_power": 4,
+      "A_or_Adagger": 9,
+      "CX": 73664,
+      "U": 80641,
+      "depth": 143052,
+      "core_Statevector_seconds_microbenchmark_projection": 1371.7545500181345
+    },
+    {
+      "Grover_power": 8,
+      "A_or_Adagger": 17,
+      "CX": 140048,
+      "U": 153341,
+      "depth": 271792,
+      "core_Statevector_seconds_microbenchmark_projection": 2608.1846873694003
+    }
+  ],
+  "kernel_timings": [
+    {
+      "gate": "u",
+      "width": 20,
+      "gates_per_timing": 16,
+      "seconds": [
+        0.13584776900006545,
+        0.14029846299990822,
+        0.1272917480000615
+      ],
+      "median_seconds_per_gate": 0.008490485562504091
+    },
+    {
+      "gate": "cx",
+      "width": 20,
+      "gates_per_timing": 16,
+      "seconds": [
+        0.14923399300005258,
+        0.13448623699991913,
+        0.15476540100007696
+      ],
+      "median_seconds_per_gate": 0.009327124562503286
+    }
+  ],
+  "replicate_feasibility_projection": [
+    {
+      "powers": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "replicates": 100,
+      "conditions": 5,
+      "shots_per_stage": 200,
+      "independent_circuit_statevector_runs": 2000,
+      "uncached_seconds_projection": 1352525.1955160953,
+      "cached_unique_circuits": 20,
+      "cached_seconds_projection": 13525.251955160951,
+      "logical_A_queries_all_conditions": 1800000,
+      "limitation": "component-weighted projection from isolated 20-qubit gate kernels, not a measured six-step A/Grover/MLAE runtime; circuit caching reuses ideal distributions while retaining logical shot/query charges"
+    },
+    {
+      "powers": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "replicates": 200,
+      "conditions": 5,
+      "shots_per_stage": 200,
+      "independent_circuit_statevector_runs": 4000,
+      "uncached_seconds_projection": 2705050.3910321905,
+      "cached_unique_circuits": 20,
+      "cached_seconds_projection": 13525.251955160951,
+      "logical_A_queries_all_conditions": 3600000,
+      "limitation": "component-weighted projection from isolated 20-qubit gate kernels, not a measured six-step A/Grover/MLAE runtime; circuit caching reuses ideal distributions while retaining logical shot/query charges"
+    },
+    {
+      "powers": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "replicates": 100,
+      "conditions": 5,
+      "shots_per_stage": 200,
+      "independent_circuit_statevector_runs": 2500,
+      "uncached_seconds_projection": 2656617.5392007953,
+      "cached_unique_circuits": 25,
+      "cached_seconds_projection": 26566.175392007954,
+      "logical_A_queries_all_conditions": 3500000,
+      "limitation": "component-weighted projection from isolated 20-qubit gate kernels, not a measured six-step A/Grover/MLAE runtime; circuit caching reuses ideal distributions while retaining logical shot/query charges"
+    },
+    {
+      "powers": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "replicates": 200,
+      "conditions": 5,
+      "shots_per_stage": 200,
+      "independent_circuit_statevector_runs": 5000,
+      "uncached_seconds_projection": 5313235.078401591,
+      "cached_unique_circuits": 25,
+      "cached_seconds_projection": 26566.175392007954,
+      "logical_A_queries_all_conditions": 7000000,
+      "limitation": "component-weighted projection from isolated 20-qubit gate kernels, not a measured six-step A/Grover/MLAE runtime; circuit caching reuses ideal distributions while retaining logical shot/query charges"
+    }
+  ],
+  "evidence_boundary": "Only one/two-step quantum circuits and isolated gate primitives were compiled/simulated. Full six-step oracle, A, Grover and QAE production circuits remain unimplemented.",
+  "unitary_residual": 1.394544591966787e-15,
+  "max_pilot_word_probability_error": 3.2085445411667024e-14,
+  "elapsed_seconds": 2.8773896580000837
+}

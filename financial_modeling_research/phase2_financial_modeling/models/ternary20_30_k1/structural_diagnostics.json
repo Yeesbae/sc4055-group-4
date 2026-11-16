@@ -1,0 +1,144 @@
+{
+  "zero_phase_Gram": [
+    [
+      1.0,
+      0.49828605313034674,
+      0.11448048556139798
+    ],
+    [
+      0.49828605313034674,
+      1.0,
+      0.5130761887845477
+    ],
+    [
+      0.11448048556139798,
+      0.5130761887845477,
+      1.0
+    ]
+  ],
+  "eigenvalues_float64": [
+    0.33970383791490993,
+    0.8855711118144434,
+    1.7747250502706469
+  ],
+  "gram_recurrence_max_abs": 1.1102230246251565e-16,
+  "precision_decimal_digits": 90,
+  "cholesky_squared_pivots_90digit": [
+    "0.999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+    "0.751711009255781262558306772812239191222603413244513560050136762620745266576175774657653062",
+    "0.710238259002934716034422690272600694128869933162356886712325558521216940913956447465145393"
+  ],
+  "all_90digit_pivots_positive": true,
+  "rank_status": "full rank numerically supported at 90 digits, not an exact symbolic Gram-rank proof",
+  "analytic_validity": "G is PSD, unit diagonal and recurrent by synchronization after k outputs; independent of rank tolerance",
+  "no_global_optimization": true,
+  "memory_states_columns": [
+    [
+      1.0,
+      0.49828605313034674,
+      0.11448048556139798
+    ],
+    [
+      0.0,
+      0.8670126926728243,
+      0.5259809496765941
+    ],
+    [
+      0.0,
+      0.0,
+      0.8427563461659217
+    ]
+  ],
+  "Kraus": [
+    [
+      [
+        0.9779454322543975,
+        -0.20707281737022915,
+        0.027268660383586513
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.10376695445767284,
+        0.47672827941553847,
+        -0.1012499753693711
+      ],
+      [
+        0.18055345123470815,
+        0.82950238444909,
+        -0.1761739330783394
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.001830263158502186,
+        0.02339909156348342,
+        0.11204871362558251
+      ],
+      [
+        0.008409149817509794,
+        0.10750719951768431,
+        0.5148081658966798
+      ],
+      [
+        0.013473614165919558,
+        0.17225409914135167,
+        0.8248546817793083
+      ]
+    ]
+  ],
+  "recurrence_residual": 1.1102230246251565e-16,
+  "completeness_residual": 1.6351091606768757e-16,
+  "stationary_classical_entropy": 1.2273792196245776,
+  "stationary_quantum_entropy": 1.012571894278673,
+  "condition_number_S": 2.2856793936716233,
+  "instrument_numerically_valid": true,
+  "partition": {
+    "D_c": 3,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "refinement_class_counts": [
+      3,
+      3
+    ],
+    "exact_equality": "rational counts plus rational Dirichlet prior; no distance tolerance",
+    "scope": "causal states of this positive fitted finite-order process only"
+  },
+  "probability_rank": {
+    "prime": 1000000007,
+    "rank_mod_p": 3,
+    "determinant_mod_p": 863312676,
+    "rational_probability_rank_exact": 3,
+    "quantum_dimension_lower_bound": 2,
+    "classical_hidden_dimension_lower_bound": 3,
+    "proof": "All states reached after k outputs; positive prefix weights. Conditional length-k matrix is an invertible row-scaled Hankel submatrix when determinant mod p is nonzero. A fixed D-dimensional instrument has probability rank at most D^2.",
+    "limitation": "rank mod p below D is only a lower bound, not proof of rank deficiency"
+  },
+  "registers": {
+    "classical_predictive_states": 3,
+    "conventional_memory_qubits_upper_bound": 2,
+    "future_output_qubits_L6": 12,
+    "count_workspace_qubits": 3,
+    "event_flag": 1,
+    "total_width_upper_bound_design": 18,
+    "note": "register design estimate; no compiled circuit; ternary invalid padded label must have zero amplitude"
+  }
+}

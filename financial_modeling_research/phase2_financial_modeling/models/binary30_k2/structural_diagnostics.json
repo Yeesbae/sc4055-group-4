@@ -1,0 +1,166 @@
+{
+  "zero_phase_Gram": [
+    [
+      1.0,
+      0.5929758324419826,
+      0.9290466144600934,
+      0.37817613636795133
+    ],
+    [
+      0.5929758324419826,
+      1.0,
+      0.826663421619007,
+      0.9629979431261456
+    ],
+    [
+      0.9290466144600934,
+      0.826663421619007,
+      1.0,
+      0.6776503693398324
+    ],
+    [
+      0.37817613636795133,
+      0.9629979431261456,
+      0.6776503693398324,
+      1.0
+    ]
+  ],
+  "eigenvalues_float64": [
+    0.002807366005572462,
+    0.014054044741956116,
+    0.7827427314022689,
+    3.200395857850202
+  ],
+  "gram_recurrence_max_abs": 5.551115123125783e-17,
+  "precision_decimal_digits": 90,
+  "cholesky_squared_pivots_90digit": [
+    "1.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "0.648379662139737750901330719527852165639515911844883298165967502858228569447696759188959455",
+    "0.019588855791378031383099878230024740948206021621311025935823029214642716636455431896905677",
+    "0.007781882315826488080501977882486213756824516213639968965883214437190474161305829363963872"
+  ],
+  "all_90digit_pivots_positive": true,
+  "rank_status": "full rank numerically supported at 90 digits, not an exact symbolic Gram-rank proof",
+  "analytic_validity": "G is PSD, unit diagonal and recurrent by synchronization after k outputs; independent of rank tolerance",
+  "no_global_optimization": true,
+  "memory_states_columns": [
+    [
+      1.0,
+      0.5929758324419826,
+      0.9290466144600934,
+      0.37817613636795133
+    ],
+    [
+      0.0,
+      0.8052202569109509,
+      0.3424668339691605,
+      0.9174491420368787
+    ],
+    [
+      0.0,
+      0.0,
+      0.13996019359581507,
+      0.08653322680784185
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.08821497784291786
+    ]
+  ],
+  "Kraus": [
+    [
+      [
+        0.9955924117304026,
+        -0.08681545137184016,
+        -0.03547995360685059,
+        0.0
+      ],
+      [
+        0.0,
+        0.23825987419216282,
+        -0.5829950836744219,
+        -0.6784034976645015
+      ],
+      [
+        0.0,
+        0.09737263527554488,
+        -0.23825987419216282,
+        -0.27725162103654105
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.05561262880812558,
+        0.34808704429292464,
+        0.7087996125765434,
+        -0.4868658773110402
+      ],
+      [
+        0.07551811187980176,
+        0.8881944655387208,
+        -0.054220597842178225,
+        0.35853506715497035
+      ],
+      [
+        0.0,
+        0.08901929231373454,
+        -0.21782018456547386,
+        0.21845085207293868
+      ],
+      [
+        0.0,
+        0.09074935939331777,
+        -0.22205346390066946,
+        0.22269638826914123
+      ]
+    ]
+  ],
+  "recurrence_residual": 1.1274368112207335e-16,
+  "completeness_residual": 5.552527222530261e-17,
+  "stationary_classical_entropy": 0.524128846397155,
+  "stationary_quantum_entropy": 0.3537971087360683,
+  "condition_number_S": 33.76387870798342,
+  "instrument_numerically_valid": true,
+  "partition": {
+    "D_c": 4,
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "refinement_class_counts": [
+      4,
+      4
+    ],
+    "exact_equality": "rational counts plus rational Dirichlet prior; no distance tolerance",
+    "scope": "causal states of this positive fitted finite-order process only"
+  },
+  "probability_rank": {
+    "prime": 1000000007,
+    "rank_mod_p": 4,
+    "determinant_mod_p": 647832733,
+    "rational_probability_rank_exact": 4,
+    "quantum_dimension_lower_bound": 2,
+    "classical_hidden_dimension_lower_bound": 4,
+    "proof": "All states reached after k outputs; positive prefix weights. Conditional length-k matrix is an invertible row-scaled Hankel submatrix when determinant mod p is nonzero. A fixed D-dimensional instrument has probability rank at most D^2.",
+    "limitation": "rank mod p below D is only a lower bound, not proof of rank deficiency"
+  },
+  "registers": {
+    "classical_predictive_states": 4,
+    "conventional_memory_qubits_upper_bound": 2,
+    "future_output_qubits_L6": 6,
+    "count_workspace_qubits": 3,
+    "event_flag": 1,
+    "total_width_upper_bound_design": 12,
+    "note": "register design estimate; no compiled circuit; ternary invalid padded label must have zero amplitude"
+  }
+}

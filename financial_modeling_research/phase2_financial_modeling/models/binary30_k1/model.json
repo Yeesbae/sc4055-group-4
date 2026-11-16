@@ -1,0 +1,132 @@
+{
+  "model_version": "V3.0-Phase2-1.0",
+  "tag": "binary30_k1",
+  "observation": "binary30",
+  "thresholds": [
+    30.0
+  ],
+  "indexing": "oldest to newest, state integer is base-m encoding; symbols >= threshold use upper bin",
+  "state_labels": [
+    "0",
+    "1"
+  ],
+  "order": 1,
+  "alphabet": [
+    0,
+    1
+  ],
+  "alpha_per_symbol": 0.5,
+  "counts": [
+    [
+      8470,
+      93
+    ],
+    [
+      93,
+      644
+    ]
+  ],
+  "emission_probabilities": [
+    [
+      0.9890822045773003,
+      0.010917795422699673
+    ],
+    [
+      0.12669376693766937,
+      0.8733062330623306
+    ]
+  ],
+  "emission_probabilities_rational": [
+    [
+      "16941/17128",
+      "187/17128"
+    ],
+    [
+      "187/1476",
+      "1289/1476"
+    ]
+  ],
+  "lambda": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "T_emission": [
+    [
+      [
+        0.9890822045773003,
+        0.0
+      ],
+      [
+        0.12669376693766937,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.010917795422699673
+      ],
+      [
+        0.0,
+        0.8733062330623306
+      ]
+    ]
+  ],
+  "T": [
+    [
+      0.9890822045773003,
+      0.010917795422699673
+    ],
+    [
+      0.12669376693766937,
+      0.8733062330623306
+    ]
+  ],
+  "stationary_occupancy": [
+    0.9206622231778113,
+    0.0793377768221887
+  ],
+  "reachable_states": [
+    0,
+    1
+  ],
+  "reachability_proof": "Dirichlet smoothing gives every symbol positive probability; each length-k word reaches its own context from any start. Irreducible with self loops, unique stationary distribution.",
+  "causal_minimization": {
+    "D_c": 2,
+    "blocks": [
+      0,
+      1
+    ],
+    "refinement_class_counts": [
+      2,
+      2
+    ],
+    "exact_equality": "rational counts plus rational Dirichlet prior; no distance tolerance",
+    "scope": "causal states of this positive fitted finite-order process only"
+  },
+  "event": {
+    "kind": "count",
+    "L": 6,
+    "K": 3
+  },
+  "high_symbol": 1,
+  "exact_model_event_probabilities": [
+    0.03292098758579813,
+    0.6754450437863002
+  ],
+  "enumeration_DP_max_difference": 0.0,
+  "fit_coverage": [
+    "1990-01-02",
+    "2026-10-23"
+  ],
+  "data_manifest": "data/manifests/vix_manifest.json",
+  "threshold_rationale": "fixed 30 persistent stress proxy; 20 split tests moderate-state information. No official default/risk cutoff.",
+  "validation": "retrospective nested rolling-origin forecasts, prospective holdout unavailable; deployment refit is not retrospectively scored as an untouched model",
+  "uncertainty": "context_counts.csv contains nominal Dirichlet/Beta intervals; event_uncertainty.csv adds posterior propagation and dependent block refits; nonstationarity unresolved"
+}

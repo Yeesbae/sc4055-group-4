@@ -1,0 +1,170 @@
+{
+  "versions": {
+    "qiskit-aer": "0.17.2",
+    "qiskit": "2.2.3"
+  },
+  "settings": {
+    "method": "statevector",
+    "precision": "double",
+    "max_parallel_threads": 1,
+    "enable_truncation": false,
+    "coherent_pilot_fusion": true,
+    "kernel_fusion": false,
+    "coherent_steps_max": 2
+  },
+  "measured_pilots": [
+    {
+      "L": 1,
+      "initial_state": 0,
+      "wall_seconds": 3.2693799880000824,
+      "Aer_time_taken": 3.2681329250335693,
+      "amplitudes": 1048576,
+      "max_word_probability_error": 1.0880185641326534e-14
+    },
+    {
+      "L": 1,
+      "initial_state": 8,
+      "wall_seconds": 3.0054551530001845,
+      "Aer_time_taken": 3.0043861865997314,
+      "amplitudes": 1048576,
+      "max_word_probability_error": 2.220446049250313e-15
+    },
+    {
+      "L": 2,
+      "initial_state": 0,
+      "wall_seconds": 5.965091685000061,
+      "Aer_time_taken": 5.963627576828003,
+      "amplitudes": 1048576,
+      "max_word_probability_error": 2.942091015256665e-14
+    },
+    {
+      "L": 2,
+      "initial_state": 8,
+      "wall_seconds": 6.218525451000005,
+      "Aer_time_taken": 6.217286586761475,
+      "amplitudes": 1048576,
+      "max_word_probability_error": 5.551115123125783e-15
+    }
+  ],
+  "measured_kernel_timings": [
+    {
+      "gate": "none",
+      "gates": 0,
+      "wall_seconds": [
+        0.05122173999984625,
+        0.042657211999994615,
+        0.04317302799995559
+      ],
+      "median": 0.04317302799995559
+    },
+    {
+      "gate": "u",
+      "gates": 256,
+      "wall_seconds": [
+        0.7602980069998466,
+        0.803865457000029,
+        0.7910447689998819
+      ],
+      "median": 0.7910447689998819
+    },
+    {
+      "gate": "cx",
+      "gates": 256,
+      "wall_seconds": [
+        1.0146490159997938,
+        1.031537567999976,
+        1.000937684000064
+      ],
+      "median": 1.0146490159997938
+    }
+  ],
+  "baseline_subtracted_seconds_per_gate": {
+    "u": 0.002921373988280962,
+    "cx": 0.003794828078124368
+  },
+  "stage_component_projections": [
+    {
+      "Grover_power": 0,
+      "CX": 7280,
+      "U": 7941,
+      "seconds_component_projection": 50.82497924968452
+    },
+    {
+      "Grover_power": 1,
+      "CX": 23876,
+      "U": 26116,
+      "seconds_component_projection": 166.899918271243
+    },
+    {
+      "Grover_power": 2,
+      "CX": 40472,
+      "U": 44291,
+      "seconds_component_projection": 282.9748572928015
+    },
+    {
+      "Grover_power": 4,
+      "CX": 73664,
+      "U": 80641,
+      "seconds_component_projection": 515.1247353359186
+    },
+    {
+      "Grover_power": 8,
+      "CX": 140048,
+      "U": 153341,
+      "seconds_component_projection": 979.4244914221526
+    }
+  ],
+  "schedule_projections": [
+    {
+      "powers": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "conditions": 5,
+      "replicates": 100,
+      "cached_unique_circuit_seconds_projection": 5079.1224507482375,
+      "uncached_seconds_projection": 507912.24507482373
+    },
+    {
+      "powers": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "conditions": 5,
+      "replicates": 200,
+      "cached_unique_circuit_seconds_projection": 5079.1224507482375,
+      "uncached_seconds_projection": 1015824.4901496475
+    },
+    {
+      "powers": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "conditions": 5,
+      "replicates": 100,
+      "cached_unique_circuit_seconds_projection": 9976.244907859002,
+      "uncached_seconds_projection": 997624.4907859002
+    },
+    {
+      "powers": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "conditions": 5,
+      "replicates": 200,
+      "cached_unique_circuit_seconds_projection": 9976.244907859002,
+      "uncached_seconds_projection": 1995248.9815718003
+    }
+  ],
+  "limitation": "Actual 20-qubit measurements cover only one/two steps. Full six-step A, event oracle, Grover powers and MLAE runs are not implemented. Runtime projections omit multi-gate fusion, transpiler/global optimization, measurement fitting and variable simulator overhead."
+}

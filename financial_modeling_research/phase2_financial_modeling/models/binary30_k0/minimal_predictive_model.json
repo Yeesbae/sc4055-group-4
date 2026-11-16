@@ -1,0 +1,43 @@
+{
+  "D_c": 1,
+  "original_history_count": 1,
+  "original_to_minimal": [
+    0
+  ],
+  "representatives": [
+    0
+  ],
+  "emissions": [
+    [
+      0.9207159750591271,
+      0.07928402494087293
+    ]
+  ],
+  "lambda": [
+    [
+      0,
+      0
+    ]
+  ],
+  "T_emission": [
+    [
+      [
+        0.9207159750591271
+      ]
+    ],
+    [
+      [
+        0.07928402494087293
+      ]
+    ]
+  ],
+  "T": [
+    [
+      1.0
+    ]
+  ],
+  "stationary_occupancy": [
+    1.0
+  ],
+  "note": "Exact quotient of fixed fitted process. Aggregate counts are not resmoothed; inherited probabilities preserve all future laws."
+}

@@ -1,0 +1,37 @@
+{
+  "version": "V3.0-Phase3-1.0",
+  "decision": "CONDITIONAL GO",
+  "principal_research_model": "three-level second-order VIX model, fixed thresholds 20/30 and Dirichlet(0.5) emissions",
+  "financial_superiority_established": false,
+  "supported_all_nine_states": false,
+  "sparse_states": {
+    "02": 1,
+    "20": 0
+  },
+  "Brier_difference_order2_minus_order1": -0.0004800162691242,
+  "paired_block60_interval": [
+    -0.0017268922668674,
+    0.0006087941919458
+  ],
+  "conditional_freeze": true,
+  "freeze_scope": "research demonstration and next-stage exact coherent implementation, not validated market deployment or unique optimal financial model",
+  "quantum_pure_unifilar_phase_class_dimension": 9,
+  "exact_phase_compression_to8_or4": "NO-GO by interval-certified all-phase rank proof",
+  "general_fixed_quantum_instrument_lower_dimension_bound": 3,
+  "general_mixed_or_multiKraus_compression": "unresolved; added coherent environments/purifications must be counted",
+  "quantum_circuit_status": "one/two-step core and 20-qubit Aer pilots pass; full six-step A/oracle/Grover/MLAE not implemented",
+  "course_feasibility": "conditional on actual full-circuit timing, cached unique-circuit strategy and correctness gates in the contract",
+  "fallbacks": [
+    "three-level order 1 preserves observation and event at lower width",
+    "binary order 2 is the smaller engineering representation"
+  ],
+  "required_conditions": [
+    "show unsupported/prior-dominated rows explicitly",
+    "do not claim six-step financial superiority",
+    "do not claim exact phase dimensional saving",
+    "validate all nine starts and the entire encoded oracle",
+    "run full-circuit timing gate before 100-200 replicate production",
+    "keep exact classical DP and separate statistical/model/quantum-estimator errors"
+  ],
+  "preserve_phase2_recommendation": "Phase 2 preferred a smaller model under its support/tolerance rule; this focused conditional research exception does not rewrite that result."
+}

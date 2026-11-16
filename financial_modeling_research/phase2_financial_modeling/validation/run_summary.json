@@ -1,0 +1,16 @@
+{
+  "elapsed_seconds": 20.070500373840332,
+  "fitted_model_records": 708,
+  "seed": 40552625,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "principal": "binary30_k1",
+  "fallback": "binary30_k0",
+  "max_exact_event_difference": 1.3322676295501878e-15,
+  "confirmatory_test_available": false,
+  "full_quantum_circuits_implemented": false,
+  "all_direct_fits_pass": true
+}

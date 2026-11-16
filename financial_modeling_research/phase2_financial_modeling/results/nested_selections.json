@@ -1,0 +1,926 @@
+[
+  {
+    "outer_year": 2015,
+    "selected": {
+      "name": "binary30",
+      "k": 0,
+      "states": 1,
+      "inner_brier": 0.0002540767834517395,
+      "eligible_support": true,
+      "min_training_context_count": 5544
+    },
+    "options": [
+      {
+        "name": "binary30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.0002540767834517395,
+        "eligible_support": true,
+        "min_training_context_count": 5544
+      },
+      {
+        "name": "binary30",
+        "k": 1,
+        "states": 2,
+        "inner_brier": 0.0014553200844850843,
+        "eligible_support": true,
+        "min_training_context_count": 578
+      },
+      {
+        "name": "binary30",
+        "k": 2,
+        "states": 4,
+        "inner_brier": 0.0006730505141145722,
+        "eligible_support": true,
+        "min_training_context_count": 63
+      },
+      {
+        "name": "binary30",
+        "k": 3,
+        "states": 8,
+        "inner_brier": 0.00035023978250872293,
+        "eligible_support": false,
+        "min_training_context_count": 13
+      },
+      {
+        "name": "ternary20_30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.0002539549547214817,
+        "eligible_support": true,
+        "min_training_context_count": 5544
+      },
+      {
+        "name": "ternary20_30",
+        "k": 1,
+        "states": 3,
+        "inner_brier": 0.0006879511792180602,
+        "eligible_support": true,
+        "min_training_context_count": 578
+      },
+      {
+        "name": "ternary20_30",
+        "k": 2,
+        "states": 9,
+        "inner_brier": 0.00032373906767103156,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      },
+      {
+        "name": "ternary20_30",
+        "k": 3,
+        "states": 27,
+        "inner_brier": 0.0001797576683628982,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      }
+    ]
+  },
+  {
+    "outer_year": 2016,
+    "selected": {
+      "name": "binary30",
+      "k": 0,
+      "states": 1,
+      "inner_brier": 0.006779418293048011,
+      "eligible_support": true,
+      "min_training_context_count": 5794
+    },
+    "options": [
+      {
+        "name": "binary30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.006779418293048011,
+        "eligible_support": true,
+        "min_training_context_count": 5794
+      },
+      {
+        "name": "binary30",
+        "k": 1,
+        "states": 2,
+        "inner_brier": 0.008518557279559429,
+        "eligible_support": true,
+        "min_training_context_count": 578
+      },
+      {
+        "name": "binary30",
+        "k": 2,
+        "states": 4,
+        "inner_brier": 0.008317324883501767,
+        "eligible_support": true,
+        "min_training_context_count": 63
+      },
+      {
+        "name": "binary30",
+        "k": 3,
+        "states": 8,
+        "inner_brier": 0.007974474703499369,
+        "eligible_support": false,
+        "min_training_context_count": 13
+      },
+      {
+        "name": "ternary20_30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.006779362999792009,
+        "eligible_support": true,
+        "min_training_context_count": 5794
+      },
+      {
+        "name": "ternary20_30",
+        "k": 1,
+        "states": 3,
+        "inner_brier": 0.007924343284649847,
+        "eligible_support": true,
+        "min_training_context_count": 578
+      },
+      {
+        "name": "ternary20_30",
+        "k": 2,
+        "states": 9,
+        "inner_brier": 0.008149197205859705,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      },
+      {
+        "name": "ternary20_30",
+        "k": 3,
+        "states": 27,
+        "inner_brier": 0.00818671266754968,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      }
+    ]
+  },
+  {
+    "outer_year": 2017,
+    "selected": {
+      "name": "binary30",
+      "k": 0,
+      "states": 1,
+      "inner_brier": 0.006740115539685404,
+      "eligible_support": true,
+      "min_training_context_count": 6046
+    },
+    "options": [
+      {
+        "name": "binary30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.006740115539685404,
+        "eligible_support": true,
+        "min_training_context_count": 6046
+      },
+      {
+        "name": "binary30",
+        "k": 1,
+        "states": 2,
+        "inner_brier": 0.008424517985098176,
+        "eligible_support": true,
+        "min_training_context_count": 578
+      },
+      {
+        "name": "binary30",
+        "k": 2,
+        "states": 4,
+        "inner_brier": 0.00827445025040216,
+        "eligible_support": true,
+        "min_training_context_count": 63
+      },
+      {
+        "name": "binary30",
+        "k": 3,
+        "states": 8,
+        "inner_brier": 0.007953743504623809,
+        "eligible_support": false,
+        "min_training_context_count": 13
+      },
+      {
+        "name": "ternary20_30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.0067400811731072605,
+        "eligible_support": true,
+        "min_training_context_count": 6046
+      },
+      {
+        "name": "ternary20_30",
+        "k": 1,
+        "states": 3,
+        "inner_brier": 0.008319812544520272,
+        "eligible_support": true,
+        "min_training_context_count": 578
+      },
+      {
+        "name": "ternary20_30",
+        "k": 2,
+        "states": 9,
+        "inner_brier": 0.008366753618045862,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      },
+      {
+        "name": "ternary20_30",
+        "k": 3,
+        "states": 27,
+        "inner_brier": 0.008305515559872353,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      }
+    ]
+  },
+  {
+    "outer_year": 2018,
+    "selected": {
+      "name": "binary30",
+      "k": 0,
+      "states": 1,
+      "inner_brier": 0.006718842347585947,
+      "eligible_support": true,
+      "min_training_context_count": 6298
+    },
+    "options": [
+      {
+        "name": "binary30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.006718842347585947,
+        "eligible_support": true,
+        "min_training_context_count": 6298
+      },
+      {
+        "name": "binary30",
+        "k": 1,
+        "states": 2,
+        "inner_brier": 0.008352714290421417,
+        "eligible_support": true,
+        "min_training_context_count": 578
+      },
+      {
+        "name": "binary30",
+        "k": 2,
+        "states": 4,
+        "inner_brier": 0.008247822253444224,
+        "eligible_support": true,
+        "min_training_context_count": 63
+      },
+      {
+        "name": "binary30",
+        "k": 3,
+        "states": 8,
+        "inner_brier": 0.007946304026674185,
+        "eligible_support": false,
+        "min_training_context_count": 13
+      },
+      {
+        "name": "ternary20_30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.00671882351382196,
+        "eligible_support": true,
+        "min_training_context_count": 6298
+      },
+      {
+        "name": "ternary20_30",
+        "k": 1,
+        "states": 3,
+        "inner_brier": 0.008215190464821212,
+        "eligible_support": true,
+        "min_training_context_count": 578
+      },
+      {
+        "name": "ternary20_30",
+        "k": 2,
+        "states": 9,
+        "inner_brier": 0.008321910192241074,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      },
+      {
+        "name": "ternary20_30",
+        "k": 3,
+        "states": 27,
+        "inner_brier": 0.008287725668101459,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      }
+    ]
+  },
+  {
+    "outer_year": 2019,
+    "selected": {
+      "name": "binary30",
+      "k": 0,
+      "states": 1,
+      "inner_brier": 0.005419876609596068,
+      "eligible_support": true,
+      "min_training_context_count": 6550
+    },
+    "options": [
+      {
+        "name": "binary30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.005419876609596068,
+        "eligible_support": true,
+        "min_training_context_count": 6550
+      },
+      {
+        "name": "binary30",
+        "k": 1,
+        "states": 2,
+        "inner_brier": 0.0075023272021961344,
+        "eligible_support": true,
+        "min_training_context_count": 582
+      },
+      {
+        "name": "binary30",
+        "k": 2,
+        "states": 4,
+        "inner_brier": 0.00682262384912766,
+        "eligible_support": true,
+        "min_training_context_count": 65
+      },
+      {
+        "name": "binary30",
+        "k": 3,
+        "states": 8,
+        "inner_brier": 0.006343281211387333,
+        "eligible_support": false,
+        "min_training_context_count": 13
+      },
+      {
+        "name": "ternary20_30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.005419852048102213,
+        "eligible_support": true,
+        "min_training_context_count": 6550
+      },
+      {
+        "name": "ternary20_30",
+        "k": 1,
+        "states": 3,
+        "inner_brier": 0.006858663778269653,
+        "eligible_support": true,
+        "min_training_context_count": 582
+      },
+      {
+        "name": "ternary20_30",
+        "k": 2,
+        "states": 9,
+        "inner_brier": 0.00601718969590522,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      },
+      {
+        "name": "ternary20_30",
+        "k": 3,
+        "states": 27,
+        "inner_brier": 0.005789009921504561,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      }
+    ]
+  },
+  {
+    "outer_year": 2020,
+    "selected": {
+      "name": "binary30",
+      "k": 0,
+      "states": 1,
+      "inner_brier": 0.005401063293056614,
+      "eligible_support": true,
+      "min_training_context_count": 6802
+    },
+    "options": [
+      {
+        "name": "binary30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.005401063293056614,
+        "eligible_support": true,
+        "min_training_context_count": 6802
+      },
+      {
+        "name": "binary30",
+        "k": 1,
+        "states": 2,
+        "inner_brier": 0.0074434560770054795,
+        "eligible_support": true,
+        "min_training_context_count": 582
+      },
+      {
+        "name": "binary30",
+        "k": 2,
+        "states": 4,
+        "inner_brier": 0.006793771640344055,
+        "eligible_support": true,
+        "min_training_context_count": 65
+      },
+      {
+        "name": "binary30",
+        "k": 3,
+        "states": 8,
+        "inner_brier": 0.006326905103273557,
+        "eligible_support": false,
+        "min_training_context_count": 13
+      },
+      {
+        "name": "ternary20_30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.00540104775822643,
+        "eligible_support": true,
+        "min_training_context_count": 6802
+      },
+      {
+        "name": "ternary20_30",
+        "k": 1,
+        "states": 3,
+        "inner_brier": 0.006582557267059033,
+        "eligible_support": true,
+        "min_training_context_count": 582
+      },
+      {
+        "name": "ternary20_30",
+        "k": 2,
+        "states": 9,
+        "inner_brier": 0.005857903316212577,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      },
+      {
+        "name": "ternary20_30",
+        "k": 3,
+        "states": 27,
+        "inner_brier": 0.005700122181909372,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      }
+    ]
+  },
+  {
+    "outer_year": 2021,
+    "selected": {
+      "name": "ternary20_30",
+      "k": 1,
+      "states": 3,
+      "inner_brier": 0.04466481620885888,
+      "eligible_support": true,
+      "min_training_context_count": 582
+    },
+    "options": [
+      {
+        "name": "binary30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.11828000655669908,
+        "eligible_support": true,
+        "min_training_context_count": 7053
+      },
+      {
+        "name": "binary30",
+        "k": 1,
+        "states": 2,
+        "inner_brier": 0.046897203819470726,
+        "eligible_support": true,
+        "min_training_context_count": 582
+      },
+      {
+        "name": "binary30",
+        "k": 2,
+        "states": 4,
+        "inner_brier": 0.04423731530256038,
+        "eligible_support": true,
+        "min_training_context_count": 65
+      },
+      {
+        "name": "binary30",
+        "k": 3,
+        "states": 8,
+        "inner_brier": 0.04358844191914499,
+        "eligible_support": false,
+        "min_training_context_count": 13
+      },
+      {
+        "name": "ternary20_30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.11828033348582413,
+        "eligible_support": true,
+        "min_training_context_count": 7053
+      },
+      {
+        "name": "ternary20_30",
+        "k": 1,
+        "states": 3,
+        "inner_brier": 0.04466481620885888,
+        "eligible_support": true,
+        "min_training_context_count": 582
+      },
+      {
+        "name": "ternary20_30",
+        "k": 2,
+        "states": 9,
+        "inner_brier": 0.04224957642278259,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      },
+      {
+        "name": "ternary20_30",
+        "k": 3,
+        "states": 27,
+        "inner_brier": 0.04208238176114392,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      }
+    ]
+  },
+  {
+    "outer_year": 2022,
+    "selected": {
+      "name": "ternary20_30",
+      "k": 1,
+      "states": 3,
+      "inner_brier": 0.04717997705535772,
+      "eligible_support": true,
+      "min_training_context_count": 587
+    },
+    "options": [
+      {
+        "name": "binary30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.11943678846906539,
+        "eligible_support": true,
+        "min_training_context_count": 7304
+      },
+      {
+        "name": "binary30",
+        "k": 1,
+        "states": 2,
+        "inner_brier": 0.048971584201302,
+        "eligible_support": true,
+        "min_training_context_count": 587
+      },
+      {
+        "name": "binary30",
+        "k": 2,
+        "states": 4,
+        "inner_brier": 0.04696212572369868,
+        "eligible_support": true,
+        "min_training_context_count": 68
+      },
+      {
+        "name": "binary30",
+        "k": 3,
+        "states": 8,
+        "inner_brier": 0.04654932985421302,
+        "eligible_support": false,
+        "min_training_context_count": 13
+      },
+      {
+        "name": "ternary20_30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.11943711863783636,
+        "eligible_support": true,
+        "min_training_context_count": 7304
+      },
+      {
+        "name": "ternary20_30",
+        "k": 1,
+        "states": 3,
+        "inner_brier": 0.04717997705535772,
+        "eligible_support": true,
+        "min_training_context_count": 587
+      },
+      {
+        "name": "ternary20_30",
+        "k": 2,
+        "states": 9,
+        "inner_brier": 0.04555904625100395,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      },
+      {
+        "name": "ternary20_30",
+        "k": 3,
+        "states": 27,
+        "inner_brier": 0.045304791477467604,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      }
+    ]
+  },
+  {
+    "outer_year": 2023,
+    "selected": {
+      "name": "ternary20_30",
+      "k": 1,
+      "states": 3,
+      "inner_brier": 0.08912072366805635,
+      "eligible_support": true,
+      "min_training_context_count": 587
+    },
+    "options": [
+      {
+        "name": "binary30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.19505614711251704,
+        "eligible_support": true,
+        "min_training_context_count": 7556
+      },
+      {
+        "name": "binary30",
+        "k": 1,
+        "states": 2,
+        "inner_brier": 0.09268695146425159,
+        "eligible_support": true,
+        "min_training_context_count": 587
+      },
+      {
+        "name": "binary30",
+        "k": 2,
+        "states": 4,
+        "inner_brier": 0.09146145291864476,
+        "eligible_support": true,
+        "min_training_context_count": 68
+      },
+      {
+        "name": "binary30",
+        "k": 3,
+        "states": 8,
+        "inner_brier": 0.09218302327716957,
+        "eligible_support": false,
+        "min_training_context_count": 13
+      },
+      {
+        "name": "ternary20_30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.19505673385431724,
+        "eligible_support": true,
+        "min_training_context_count": 7556
+      },
+      {
+        "name": "ternary20_30",
+        "k": 1,
+        "states": 3,
+        "inner_brier": 0.08912072366805635,
+        "eligible_support": true,
+        "min_training_context_count": 587
+      },
+      {
+        "name": "ternary20_30",
+        "k": 2,
+        "states": 9,
+        "inner_brier": 0.08842352592362046,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      },
+      {
+        "name": "ternary20_30",
+        "k": 3,
+        "states": 27,
+        "inner_brier": 0.08969370000451667,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      }
+    ]
+  },
+  {
+    "outer_year": 2024,
+    "selected": {
+      "name": "ternary20_30",
+      "k": 1,
+      "states": 3,
+      "inner_brier": 0.05148892478115917,
+      "eligible_support": true,
+      "min_training_context_count": 667
+    },
+    "options": [
+      {
+        "name": "binary30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.0824808685796168,
+        "eligible_support": true,
+        "min_training_context_count": 7809
+      },
+      {
+        "name": "binary30",
+        "k": 1,
+        "states": 2,
+        "inner_brier": 0.05326860311285859,
+        "eligible_support": true,
+        "min_training_context_count": 667
+      },
+      {
+        "name": "binary30",
+        "k": 2,
+        "states": 4,
+        "inner_brier": 0.05400725382108566,
+        "eligible_support": true,
+        "min_training_context_count": 75
+      },
+      {
+        "name": "binary30",
+        "k": 3,
+        "states": 8,
+        "inner_brier": 0.054889090649973854,
+        "eligible_support": false,
+        "min_training_context_count": 14
+      },
+      {
+        "name": "ternary20_30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.08248111521264687,
+        "eligible_support": true,
+        "min_training_context_count": 7809
+      },
+      {
+        "name": "ternary20_30",
+        "k": 1,
+        "states": 3,
+        "inner_brier": 0.05148892478115917,
+        "eligible_support": true,
+        "min_training_context_count": 667
+      },
+      {
+        "name": "ternary20_30",
+        "k": 2,
+        "states": 9,
+        "inner_brier": 0.052259568289743874,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      },
+      {
+        "name": "ternary20_30",
+        "k": 3,
+        "states": 27,
+        "inner_brier": 0.05341385551116434,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      }
+    ]
+  },
+  {
+    "outer_year": 2025,
+    "selected": {
+      "name": "ternary20_30",
+      "k": 1,
+      "states": 3,
+      "inner_brier": 0.043145821390395106,
+      "eligible_support": true,
+      "min_training_context_count": 673
+    },
+    "options": [
+      {
+        "name": "binary30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.0752467554196351,
+        "eligible_support": true,
+        "min_training_context_count": 8061
+      },
+      {
+        "name": "binary30",
+        "k": 1,
+        "states": 2,
+        "inner_brier": 0.04510202180121941,
+        "eligible_support": true,
+        "min_training_context_count": 673
+      },
+      {
+        "name": "binary30",
+        "k": 2,
+        "states": 4,
+        "inner_brier": 0.045204869072329665,
+        "eligible_support": true,
+        "min_training_context_count": 78
+      },
+      {
+        "name": "binary30",
+        "k": 3,
+        "states": 8,
+        "inner_brier": 0.04597470686884616,
+        "eligible_support": false,
+        "min_training_context_count": 15
+      },
+      {
+        "name": "ternary20_30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.07524697719078442,
+        "eligible_support": true,
+        "min_training_context_count": 8061
+      },
+      {
+        "name": "ternary20_30",
+        "k": 1,
+        "states": 3,
+        "inner_brier": 0.043145821390395106,
+        "eligible_support": true,
+        "min_training_context_count": 673
+      },
+      {
+        "name": "ternary20_30",
+        "k": 2,
+        "states": 9,
+        "inner_brier": 0.04352880403955983,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      },
+      {
+        "name": "ternary20_30",
+        "k": 3,
+        "states": 27,
+        "inner_brier": 0.04464702380113117,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      }
+    ]
+  },
+  {
+    "outer_year": 2026,
+    "selected": {
+      "name": "binary30",
+      "k": 1,
+      "states": 2,
+      "inner_brier": 0.009755259183375104,
+      "eligible_support": true,
+      "min_training_context_count": 722
+    },
+    "options": [
+      {
+        "name": "binary30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.016914483006306654,
+        "eligible_support": true,
+        "min_training_context_count": 8317
+      },
+      {
+        "name": "binary30",
+        "k": 1,
+        "states": 2,
+        "inner_brier": 0.009755259183375104,
+        "eligible_support": true,
+        "min_training_context_count": 722
+      },
+      {
+        "name": "binary30",
+        "k": 2,
+        "states": 4,
+        "inner_brier": 0.009019919994647725,
+        "eligible_support": true,
+        "min_training_context_count": 89
+      },
+      {
+        "name": "binary30",
+        "k": 3,
+        "states": 8,
+        "inner_brier": 0.008566218515815044,
+        "eligible_support": false,
+        "min_training_context_count": 18
+      },
+      {
+        "name": "ternary20_30",
+        "k": 0,
+        "states": 1,
+        "inner_brier": 0.016914500314397514,
+        "eligible_support": true,
+        "min_training_context_count": 8317
+      },
+      {
+        "name": "ternary20_30",
+        "k": 1,
+        "states": 3,
+        "inner_brier": 0.009306971127285613,
+        "eligible_support": true,
+        "min_training_context_count": 722
+      },
+      {
+        "name": "ternary20_30",
+        "k": 2,
+        "states": 9,
+        "inner_brier": 0.008774100926283048,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      },
+      {
+        "name": "ternary20_30",
+        "k": 3,
+        "states": 27,
+        "inner_brier": 0.008298467807634649,
+        "eligible_support": false,
+        "min_training_context_count": 0
+      }
+    ]
+  }
+]

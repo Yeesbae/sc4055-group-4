@@ -1,0 +1,113 @@
+[
+  {
+    "name": "binary20",
+    "edges": [
+      20.0
+    ],
+    "counts": [
+      5868,
+      3433
+    ],
+    "rates": [
+      0.6308999032362111,
+      0.36910009676378885
+    ],
+    "interpretation": "descriptive; quantile thresholds were independently fitted in each historical training fold"
+  },
+  {
+    "name": "binary25",
+    "edges": [
+      25.0
+    ],
+    "counts": [
+      7697,
+      1604
+    ],
+    "rates": [
+      0.8275454252230943,
+      0.1724545747769057
+    ],
+    "interpretation": "descriptive; quantile thresholds were independently fitted in each historical training fold"
+  },
+  {
+    "name": "binary30",
+    "edges": [
+      30.0
+    ],
+    "counts": [
+      8564,
+      737
+    ],
+    "rates": [
+      0.9207612084722073,
+      0.07923879152779272
+    ],
+    "interpretation": "descriptive; quantile thresholds were independently fitted in each historical training fold"
+  },
+  {
+    "name": "binary35",
+    "edges": [
+      35.0
+    ],
+    "counts": [
+      8948,
+      353
+    ],
+    "rates": [
+      0.9620470917105688,
+      0.03795290828943124
+    ],
+    "interpretation": "descriptive; quantile thresholds were independently fitted in each historical training fold"
+  },
+  {
+    "name": "ternary20_30",
+    "edges": [
+      20.0,
+      30.0
+    ],
+    "counts": [
+      5868,
+      2696,
+      737
+    ],
+    "rates": [
+      0.6308999032362111,
+      0.2898613052359961,
+      0.07923879152779272
+    ],
+    "interpretation": "descriptive; quantile thresholds were independently fitted in each historical training fold"
+  },
+  {
+    "name": "binary_train_q80",
+    "edges": [
+      24.15
+    ],
+    "counts": [
+      7437,
+      1864
+    ],
+    "rates": [
+      0.7995914417804537,
+      0.20040855821954628
+    ],
+    "interpretation": "descriptive; quantile thresholds were independently fitted in each historical training fold"
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "edges": [
+      15.2,
+      20.74
+    ],
+    "counts": [
+      3093,
+      3102,
+      3106
+    ],
+    "rates": [
+      0.33254488764648965,
+      0.33351252553488875,
+      0.33394258681862166
+    ],
+    "interpretation": "descriptive; quantile thresholds were independently fitted in each historical training fold"
+  }
+]

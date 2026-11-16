@@ -55,7 +55,7 @@ Following these steps in order, with the same seed, gives **exactly** the number
 
 - Python 3.12 or newer. No GPU and no quantum hardware; everything is a noiseless simulation on a laptop.
 - About 1 GB of free memory.
-- The files below, laid out like this. `qae.py` reads the model file and writes to `output/` using relative paths, so **always run from the repository root**.
+- The files below, laid out like this. `qae.py` reads the model file and writes to `output/` using relative paths, so **always run from member3/ folder**.
 
 ```
 <repo root>/
@@ -71,6 +71,7 @@ Following these steps in order, with the same seed, gives **exactly** the number
 ### 2. Install
 
 ```bash
+cd member3
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install "qiskit>=1.0" numpy scipy pandas matplotlib ipykernel

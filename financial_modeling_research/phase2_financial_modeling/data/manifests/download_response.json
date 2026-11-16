@@ -1,0 +1,30 @@
+{
+  "source_url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+  "resolved_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+  "downloaded_utc": "2026-10-25T05:28:04.497082+00:00",
+  "sha256": "f94378e505b286168d8dd466cc3a30bb12606ba34084d7ac53de953c75ba2ecd",
+  "bytes": 474094,
+  "response_headers": {
+    "date": "Sun, 25 Oct 2026 05:28:04 GMT",
+    "content-type": "text/csv",
+    "cf-ray": "a4fed0d39f47f432-DFW",
+    "cf-cache-status": "HIT",
+    "age": "378",
+    "cache-control": "max-age=60, s-maxage=900, stale-while-revalidate=900",
+    "etag": "W/\"98e74fd60bbdc28b66552553a5f7ba2a\"",
+    "last-modified": "Sat, 24 Oct 2026 01:30:50 GMT",
+    "server": "envoy",
+    "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+    "vary": "Accept-Encoding, Origin",
+    "via": "1.1 4273720efc0ae0a4ce7986e15cf86448.cloudfront.net (CloudFront)",
+    "x-amz-cf-id": "lppFRqpRiZyTI5_46l3zwlpmbvGRD9eErbdZSSTvlVeblBVAZZFjmQ==",
+    "x-amz-cf-pop": "SFO53-P10",
+    "x-amz-server-side-encryption": "AES256",
+    "x-cache": "Miss from cloudfront",
+    "set-cookie": "__cf_bm=rGiM4B_2fLyAhxk2kFQm_ol8UkpYl2QaG47VtcnYZ9Q-1792906084.4117076-1.0.1.1-7BIlqJRYAuZRPcvsRbRrOQ7zal.djBaXtsV3QXU6MkHx0oBFWKk05jGQl0GSE1N1OpqWQwbXz_VJS2XsazlU_61A_rUoiQNmQqEK3ZH1H9VjdriqIxWji0u7FTfV389h; HttpOnly; SameSite=None; Secure; Path=/; Domain=cboe.com; Expires=Sun, 25 Oct 2026 05:58:04 GMT",
+    "x-envoy-upstream-service-time": "89",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "redistribution": "Raw series excluded from deliverable ZIP; reacquire from official source. No open-data license asserted."
+}

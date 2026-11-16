@@ -1,0 +1,16 @@
+{
+  "stationary_density_eigenvalues": [
+    0.7118521592537652,
+    0.2318712392594775,
+    0.054619550823134216,
+    0.0010876932255234053,
+    0.0004015233679491079,
+    0.00010946293072203585,
+    4.9763939160394565e-05,
+    5.736412201724749e-06,
+    2.8707880667039867e-06
+  ],
+  "discarded_stationary_weight_rank8": 2.8707880667039867e-06,
+  "discarded_stationary_weight_rank4": 0.0005693574380999672,
+  "limitation": "Spectral tails concern one stationary ensemble. They are neither recurrent-instrument feasibility nor worst-history event-error bounds. No approximate production instrument is trained."
+}

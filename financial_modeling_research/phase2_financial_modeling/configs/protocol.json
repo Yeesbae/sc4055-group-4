@@ -1,0 +1,95 @@
+{
+  "version": "V3.0-Phase2-1.0",
+  "recorded_before_new_model_comparisons": true,
+  "evidence_status": "retrospective nested rolling-origin analysis; all historical dates have been accessible to prior exploration",
+  "data_cutoff": "2026-10-23",
+  "primary_observation": "Cboe VIX daily CLOSE >= 30",
+  "primary_event": {
+    "kind": "count",
+    "L": 6,
+    "K": 3
+  },
+  "financial_interpretation": "at least three elevated implied-volatility closes over six trading observations; analyst-defined stress persistence, not losses/defaults",
+  "candidate_discretizations": [
+    "binary20",
+    "binary25",
+    "binary30",
+    "binary35",
+    "ternary20_30",
+    "binary_train_q80",
+    "ternary_train_tertiles"
+  ],
+  "orders": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "dirichlet_per_symbol_alpha": 0.5,
+  "alpha_sensitivity": [
+    0.1,
+    1.0,
+    2.0
+  ],
+  "outer_test_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "inner_validation": "three preceding calendar years, each predicted by an expanding fit ending before its January 1",
+  "annual_refitting": "fit before January 1; frozen within each outer year; observed contexts update, parameters do not",
+  "split_boundary": "six-step outcomes must end within the scored year; no cross-boundary forward labels",
+  "principal_candidates": [
+    "binary30",
+    "ternary20_30"
+  ],
+  "selection_objective": "pooled inner-validation Brier for the SAME primary count event",
+  "practical_tie_brier": 0.001,
+  "selection_tiebreak": "among candidates within 0.001 of minimum, smallest state count, then binary30",
+  "support_rule": "eligible when every history has at least 25 training continuations in all three inner folds; IID and order1 retained as explicit controls even if rule fails",
+  "future_final_selection_validation_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "quantile_rule": "numpy linear empirical quantiles from each fold training sample only; q80 binary, 1/3 and 2/3 ternary",
+  "cross_discretization_comparison": "only binary30 and ternary20_30 share primary target; other thresholds use own targets, never compare raw losses to choose threshold",
+  "bootstrap": {
+    "method": "paired circular moving blocks within each outer year; fixed fitted forecasts; no block crosses annual model boundaries",
+    "blocks": [
+      10,
+      20,
+      60,
+      120
+    ],
+    "reps": 2000,
+    "seed": 40552625
+  },
+  "interval_scope": "conditional retrospective scoring uncertainty, not a refit bootstrap or global stationarity guarantee",
+  "robustness_periods": [
+    "2015-2019",
+    "2020-2022",
+    "2023-2026"
+  ],
+  "secondary_events": [
+    "hit>=30 within 6",
+    "run>=3 of >=30 within 6",
+    "first entry >=30 within 6 conditional current<30",
+    "hit>=35 within 6 in binary35",
+    "ternary category exceeds current within 6"
+  ],
+  "structural_analysis": "exact rational emission signatures and partition refinement; modular probability-rank certificates; zero-phase Gram and exploratory instrument only",
+  "no_quantum_driven_model_selection": true,
+  "future_confirmatory_start": "2026-10-26; no observations currently available; do not report confirmatory results",
+  "order4_variable_length_gate": "defer unless order3 has well-supported predictive improvement over simpler models; no expansion solely for quantum state count",
+  "expected_clean_date_close_sha256": "44b32645d54961aa0d4b0404a783dc982a2c0067063bd4de3a08b830fea03a9c"
+}

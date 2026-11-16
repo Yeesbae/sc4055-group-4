@@ -1,0 +1,32 @@
+{
+  "independent_counts_equal": true,
+  "row_normalization_max": 0.0,
+  "minimum_emission": 0.00026726057906458796,
+  "T_sum_residual": 0.0,
+  "stationary_residual": 1.3877787807814457e-17,
+  "exact_causal_states": {
+    "D_c": 9,
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "refinement_class_counts": [
+      9,
+      9
+    ],
+    "exact_equality": "rational counts plus rational Dirichlet prior; no distance tolerance",
+    "scope": "causal states of this positive fitted finite-order process only"
+  },
+  "event_max_discrepancy": 4.440892098500626e-16,
+  "quantum_instrument_recurrence": 1.6939998869943826e-16,
+  "quantum_instrument_completeness": 4.0765191202977173e-16,
+  "all_phase_certificate_pass": true,
+  "elapsed_seconds": 10.296854734420776
+}

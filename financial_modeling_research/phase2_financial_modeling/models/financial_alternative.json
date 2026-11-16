@@ -1,0 +1,207 @@
+{
+  "model_version": "V3.0-Phase2-1.0",
+  "tag": "ternary20_30_k1",
+  "observation": "ternary20_30",
+  "thresholds": [
+    20.0,
+    30.0
+  ],
+  "indexing": "oldest to newest, state integer is base-m encoding; symbols >= threshold use upper bin",
+  "state_labels": [
+    "0",
+    "1",
+    "2"
+  ],
+  "order": 1,
+  "alphabet": [
+    0,
+    1,
+    2
+  ],
+  "alpha_per_symbol": 0.5,
+  "counts": [
+    [
+      5612,
+      254,
+      1
+    ],
+    [
+      255,
+      2349,
+      92
+    ],
+    [
+      0,
+      93,
+      644
+    ]
+  ],
+  "emission_probabilities": [
+    [
+      0.9563772684672404,
+      0.043367129590184884,
+      0.00025560194257476357
+    ],
+    [
+      0.09471733086190917,
+      0.8709916589434662,
+      0.03429101019462465
+    ],
+    [
+      0.0006770480704129993,
+      0.12660798916723087,
+      0.8727149627623562
+    ]
+  ],
+  "emission_probabilities_rational": [
+    [
+      "11225/11737",
+      "509/11737",
+      "3/11737"
+    ],
+    [
+      "511/5395",
+      "4699/5395",
+      "37/1079"
+    ],
+    [
+      "1/1477",
+      "187/1477",
+      "1289/1477"
+    ]
+  ],
+  "lambda": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      2
+    ]
+  ],
+  "T_emission": [
+    [
+      [
+        0.9563772684672404,
+        0.0,
+        0.0
+      ],
+      [
+        0.09471733086190917,
+        0.0,
+        0.0
+      ],
+      [
+        0.0006770480704129993,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.043367129590184884,
+        0.0
+      ],
+      [
+        0.0,
+        0.8709916589434662,
+        0.0
+      ],
+      [
+        0.0,
+        0.12660798916723087,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0,
+        0.00025560194257476357
+      ],
+      [
+        0.0,
+        0.0,
+        0.03429101019462465
+      ],
+      [
+        0.0,
+        0.0,
+        0.8727149627623562
+      ]
+    ]
+  ],
+  "T": [
+    [
+      0.9563772684672404,
+      0.043367129590184884,
+      0.00025560194257476357
+    ],
+    [
+      0.09471733086190917,
+      0.8709916589434662,
+      0.03429101019462465
+    ],
+    [
+      0.0006770480704129993,
+      0.12660798916723087,
+      0.8727149627623562
+    ]
+  ],
+  "stationary_occupancy": [
+    0.630716320060186,
+    0.2899134827234134,
+    0.07937019721640057
+  ],
+  "reachable_states": [
+    0,
+    1,
+    2
+  ],
+  "reachability_proof": "Dirichlet smoothing gives every symbol positive probability; each length-k word reaches its own context from any start. Irreducible with self loops, unique stationary distribution.",
+  "causal_minimization": {
+    "D_c": 3,
+    "blocks": [
+      0,
+      1,
+      2
+    ],
+    "refinement_class_counts": [
+      3,
+      3
+    ],
+    "exact_equality": "rational counts plus rational Dirichlet prior; no distance tolerance",
+    "scope": "causal states of this positive fitted finite-order process only"
+  },
+  "event": {
+    "kind": "count",
+    "L": 6,
+    "K": 3
+  },
+  "high_symbol": 2,
+  "exact_model_event_probabilities": [
+    0.006829997077107902,
+    0.08774028177891946,
+    0.6909763742287393
+  ],
+  "enumeration_DP_max_difference": 1.1102230246251565e-16,
+  "fit_coverage": [
+    "1990-01-02",
+    "2026-10-23"
+  ],
+  "data_manifest": "data/manifests/vix_manifest.json",
+  "threshold_rationale": "fixed 30 persistent stress proxy; 20 split tests moderate-state information. No official default/risk cutoff.",
+  "validation": "retrospective nested rolling-origin forecasts, prospective holdout unavailable; deployment refit is not retrospectively scored as an untouched model",
+  "uncertainty": "context_counts.csv contains nominal Dirichlet/Beta intervals; event_uncertainty.csv adds posterior propagation and dependent block refits; nonstationarity unresolved",
+  "role": "supported_financial_alternative",
+  "selection_note": "Better pooled retrospective primary-event Brier than binary order1; latest three-year difference smaller than recorded 0.001 engineering tolerance. No untouched confirmation."
+}

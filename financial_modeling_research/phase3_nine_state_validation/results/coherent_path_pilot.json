@@ -1,0 +1,158 @@
+[
+  {
+    "L": 1,
+    "state": 0,
+    "max_word_probability_error": 1.1102230246251565e-16,
+    "invalid_output_mass": 0.0,
+    "inverse_error": 2.245515309502537e-16,
+    "seconds": 0.0008056609999584907
+  },
+  {
+    "L": 1,
+    "state": 1,
+    "max_word_probability_error": 4.6629367034256575e-15,
+    "invalid_output_mass": 3.9968028886505635e-15,
+    "inverse_error": 4.351160780103147e-15,
+    "seconds": 0.0028352029999041406
+  },
+  {
+    "L": 1,
+    "state": 2,
+    "max_word_probability_error": 5.551115123125783e-16,
+    "invalid_output_mass": 6.661338147750939e-16,
+    "inverse_error": 1.633760547267295e-15,
+    "seconds": 0.004147047000060411
+  },
+  {
+    "L": 1,
+    "state": 3,
+    "max_word_probability_error": 2.6645352591003757e-15,
+    "invalid_output_mass": 2.1094237467877974e-15,
+    "inverse_error": 2.190881355200632e-15,
+    "seconds": 0.005009553000036249
+  },
+  {
+    "L": 1,
+    "state": 4,
+    "max_word_probability_error": 1.762479051592436e-15,
+    "invalid_output_mass": 2.1094237467877974e-15,
+    "inverse_error": 2.9687326508622845e-15,
+    "seconds": 0.005043895999961023
+  },
+  {
+    "L": 1,
+    "state": 5,
+    "max_word_probability_error": 3.2085445411667024e-14,
+    "invalid_output_mass": 1.8762769116165146e-14,
+    "inverse_error": 2.371687250758344e-13,
+    "seconds": 0.0048131089999969845
+  },
+  {
+    "L": 1,
+    "state": 6,
+    "max_word_probability_error": 2.220446049250313e-15,
+    "invalid_output_mass": 3.1086244689504383e-15,
+    "inverse_error": 3.605909065665184e-15,
+    "seconds": 0.005267612000125155
+  },
+  {
+    "L": 1,
+    "state": 7,
+    "max_word_probability_error": 2.0261570199409107e-15,
+    "invalid_output_mass": 3.1086244689504383e-15,
+    "inverse_error": 4.181869047932885e-15,
+    "seconds": 0.004059876000155782
+  },
+  {
+    "L": 1,
+    "state": 8,
+    "max_word_probability_error": 2.6645352591003757e-15,
+    "invalid_output_mass": 0.0,
+    "inverse_error": 7.644789525031475e-15,
+    "seconds": 0.005385399000033431
+  },
+  {
+    "L": 2,
+    "state": 0,
+    "max_word_probability_error": 2.220446049250313e-16,
+    "invalid_output_mass": 0.0,
+    "inverse_error": 2.357873832992347e-16,
+    "seconds": 0.0005566769998495147
+  },
+  {
+    "L": 2,
+    "state": 1,
+    "max_word_probability_error": 4.440892098500626e-15,
+    "invalid_output_mass": 4.107825191113079e-15,
+    "inverse_error": 4.206039161075074e-15,
+    "seconds": 0.002584577000106947
+  },
+  {
+    "L": 2,
+    "state": 2,
+    "max_word_probability_error": 7.216449660063518e-16,
+    "invalid_output_mass": 9.992007221626409e-16,
+    "inverse_error": 1.525945726096282e-15,
+    "seconds": 0.0036452520000693767
+  },
+  {
+    "L": 2,
+    "state": 3,
+    "max_word_probability_error": 2.220446049250313e-15,
+    "invalid_output_mass": 1.887379141862766e-15,
+    "inverse_error": 2.0680087429856883e-15,
+    "seconds": 0.004576943000074607
+  },
+  {
+    "L": 2,
+    "state": 4,
+    "max_word_probability_error": 1.8110513089197866e-15,
+    "invalid_output_mass": 2.55351295663786e-15,
+    "inverse_error": 2.8619235945760834e-15,
+    "seconds": 0.004695110000056957
+  },
+  {
+    "L": 2,
+    "state": 5,
+    "max_word_probability_error": 3.044786645034492e-14,
+    "invalid_output_mass": 1.887379141862766e-14,
+    "inverse_error": 2.3705318664738773e-13,
+    "seconds": 0.004541589999917051
+  },
+  {
+    "L": 2,
+    "state": 6,
+    "max_word_probability_error": 2.1094237467877974e-15,
+    "invalid_output_mass": 2.9976021664879227e-15,
+    "inverse_error": 3.616622447735806e-15,
+    "seconds": 0.003914647000101468
+  },
+  {
+    "L": 2,
+    "state": 7,
+    "max_word_probability_error": 1.8041124150158794e-15,
+    "invalid_output_mass": 3.1086244689504383e-15,
+    "inverse_error": 4.222625950117296e-15,
+    "seconds": 0.004560278000099061
+  },
+  {
+    "L": 2,
+    "state": 8,
+    "max_word_probability_error": 2.7755575615628914e-15,
+    "invalid_output_mass": 0.0,
+    "inverse_error": 7.509283398299328e-15,
+    "seconds": 0.004846888999963994
+  },
+  {
+    "kind": "compiled_two_step",
+    "state": 0,
+    "max_word_probability_error": 2.2315482794965646e-14,
+    "seconds": 0.08724231500013957
+  },
+  {
+    "kind": "compiled_two_step",
+    "state": 8,
+    "max_word_probability_error": 1.099120794378905e-14,
+    "seconds": 0.11114645800012113
+  }
+]

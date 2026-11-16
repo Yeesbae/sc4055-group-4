@@ -1,0 +1,5582 @@
+[
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2012,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 5544,
+    "min_count": 5544,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2012,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 5544,
+    "min_count": 2501,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2012,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 5544,
+    "min_count": 138,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2012,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 5544,
+    "min_count": 42,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2012,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 5544,
+    "min_count": 5544,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2012,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 5544,
+    "min_count": 1204,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2012,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 5544,
+    "min_count": 109,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2012,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 5544,
+    "min_count": 27,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2012,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 5544,
+    "min_count": 5544,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2012,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 5544,
+    "min_count": 578,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2012,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 5544,
+    "min_count": 63,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2012,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 5544,
+    "min_count": 13,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2012,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 5544,
+    "min_count": 5544,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2012,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 5544,
+    "min_count": 290,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2012,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 5544,
+    "min_count": 33,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2012,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 5544,
+    "min_count": 7,
+    "zero_contexts": 0,
+    "sparse_contexts": 4,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2012,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 5544,
+    "min_count": 5544,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2012,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 5544,
+    "min_count": 578,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2012,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 5544,
+    "min_count": 0,
+    "zero_contexts": 2,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2012,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 5544,
+    "min_count": 0,
+    "zero_contexts": 12,
+    "sparse_contexts": 14,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2012,
+    "thresholds": [
+      25.524000000000004
+    ],
+    "train_end": 5544,
+    "min_count": 5544,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2012,
+    "thresholds": [
+      25.524000000000004
+    ],
+    "train_end": 5544,
+    "min_count": 1109,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2012,
+    "thresholds": [
+      25.524000000000004
+    ],
+    "train_end": 5544,
+    "min_count": 110,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2012,
+    "thresholds": [
+      25.524000000000004
+    ],
+    "train_end": 5544,
+    "min_count": 29,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2012,
+    "thresholds": [
+      16.1,
+      22.263333333333332
+    ],
+    "train_end": 5544,
+    "min_count": 5544,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2012,
+    "thresholds": [
+      16.1,
+      22.263333333333332
+    ],
+    "train_end": 5544,
+    "min_count": 1844,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2012,
+    "thresholds": [
+      16.1,
+      22.263333333333332
+    ],
+    "train_end": 5544,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2012,
+    "thresholds": [
+      16.1,
+      22.263333333333332
+    ],
+    "train_end": 5544,
+    "min_count": 0,
+    "zero_contexts": 9,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2013,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 5794,
+    "min_count": 5794,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2013,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 5794,
+    "min_count": 2547,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2013,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 5794,
+    "min_count": 148,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2013,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 5794,
+    "min_count": 43,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2013,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 5794,
+    "min_count": 5794,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2013,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 5794,
+    "min_count": 1207,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2013,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 5794,
+    "min_count": 111,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2013,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 5794,
+    "min_count": 27,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2013,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 5794,
+    "min_count": 5794,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2013,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 5794,
+    "min_count": 578,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2013,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 5794,
+    "min_count": 63,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2013,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 5794,
+    "min_count": 13,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2013,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 5794,
+    "min_count": 5794,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2013,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 5794,
+    "min_count": 290,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2013,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 5794,
+    "min_count": 33,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2013,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 5794,
+    "min_count": 7,
+    "zero_contexts": 0,
+    "sparse_contexts": 4,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2013,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 5794,
+    "min_count": 5794,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2013,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 5794,
+    "min_count": 578,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2013,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 5794,
+    "min_count": 0,
+    "zero_contexts": 2,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2013,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 5794,
+    "min_count": 0,
+    "zero_contexts": 12,
+    "sparse_contexts": 14,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2013,
+    "thresholds": [
+      25.25
+    ],
+    "train_end": 5794,
+    "min_count": 5794,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2013,
+    "thresholds": [
+      25.25
+    ],
+    "train_end": 5794,
+    "min_count": 1161,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2013,
+    "thresholds": [
+      25.25
+    ],
+    "train_end": 5794,
+    "min_count": 112,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2013,
+    "thresholds": [
+      25.25
+    ],
+    "train_end": 5794,
+    "min_count": 28,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2013,
+    "thresholds": [
+      16.13,
+      22.01
+    ],
+    "train_end": 5794,
+    "min_count": 5794,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2013,
+    "thresholds": [
+      16.13,
+      22.01
+    ],
+    "train_end": 5794,
+    "min_count": 1929,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2013,
+    "thresholds": [
+      16.13,
+      22.01
+    ],
+    "train_end": 5794,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2013,
+    "thresholds": [
+      16.13,
+      22.01
+    ],
+    "train_end": 5794,
+    "min_count": 0,
+    "zero_contexts": 9,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2014,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6046,
+    "min_count": 6046,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2014,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6046,
+    "min_count": 2550,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2014,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6046,
+    "min_count": 152,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2014,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6046,
+    "min_count": 44,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2014,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6046,
+    "min_count": 6046,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2014,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6046,
+    "min_count": 1207,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2014,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6046,
+    "min_count": 111,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2014,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6046,
+    "min_count": 27,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2014,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6046,
+    "min_count": 6046,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2014,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6046,
+    "min_count": 578,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2014,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6046,
+    "min_count": 63,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2014,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6046,
+    "min_count": 13,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2014,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6046,
+    "min_count": 6046,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2014,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6046,
+    "min_count": 290,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2014,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6046,
+    "min_count": 33,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2014,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6046,
+    "min_count": 7,
+    "zero_contexts": 0,
+    "sparse_contexts": 4,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2014,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6046,
+    "min_count": 6046,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2014,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6046,
+    "min_count": 578,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2014,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6046,
+    "min_count": 0,
+    "zero_contexts": 2,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2014,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6046,
+    "min_count": 0,
+    "zero_contexts": 12,
+    "sparse_contexts": 14,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2014,
+    "thresholds": [
+      24.98
+    ],
+    "train_end": 6046,
+    "min_count": 6046,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2014,
+    "thresholds": [
+      24.98
+    ],
+    "train_end": 6046,
+    "min_count": 1211,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2014,
+    "thresholds": [
+      24.98
+    ],
+    "train_end": 6046,
+    "min_count": 111,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2014,
+    "thresholds": [
+      24.98
+    ],
+    "train_end": 6046,
+    "min_count": 27,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2014,
+    "thresholds": [
+      15.82,
+      21.69
+    ],
+    "train_end": 6046,
+    "min_count": 6046,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2014,
+    "thresholds": [
+      15.82,
+      21.69
+    ],
+    "train_end": 6046,
+    "min_count": 2013,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2014,
+    "thresholds": [
+      15.82,
+      21.69
+    ],
+    "train_end": 6046,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2014,
+    "thresholds": [
+      15.82,
+      21.69
+    ],
+    "train_end": 6046,
+    "min_count": 0,
+    "zero_contexts": 9,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2015,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6298,
+    "min_count": 6298,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2015,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6298,
+    "min_count": 2561,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2015,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6298,
+    "min_count": 155,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2015,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6298,
+    "min_count": 44,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2015,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6298,
+    "min_count": 6298,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2015,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6298,
+    "min_count": 1209,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2015,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6298,
+    "min_count": 112,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2015,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6298,
+    "min_count": 27,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2015,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6298,
+    "min_count": 6298,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2015,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6298,
+    "min_count": 578,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2015,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6298,
+    "min_count": 63,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2015,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6298,
+    "min_count": 13,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2015,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6298,
+    "min_count": 6298,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2015,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6298,
+    "min_count": 290,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2015,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6298,
+    "min_count": 33,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2015,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6298,
+    "min_count": 7,
+    "zero_contexts": 0,
+    "sparse_contexts": 4,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2015,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6298,
+    "min_count": 6298,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2015,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6298,
+    "min_count": 578,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2015,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6298,
+    "min_count": 0,
+    "zero_contexts": 2,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2015,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6298,
+    "min_count": 0,
+    "zero_contexts": 12,
+    "sparse_contexts": 14,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2015,
+    "thresholds": [
+      24.79
+    ],
+    "train_end": 6298,
+    "min_count": 6298,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2015,
+    "thresholds": [
+      24.79
+    ],
+    "train_end": 6298,
+    "min_count": 1261,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2015,
+    "thresholds": [
+      24.79
+    ],
+    "train_end": 6298,
+    "min_count": 113,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2015,
+    "thresholds": [
+      24.79
+    ],
+    "train_end": 6298,
+    "min_count": 32,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2015,
+    "thresholds": [
+      15.51,
+      21.46
+    ],
+    "train_end": 6298,
+    "min_count": 6298,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2015,
+    "thresholds": [
+      15.51,
+      21.46
+    ],
+    "train_end": 6298,
+    "min_count": 2096,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2015,
+    "thresholds": [
+      15.51,
+      21.46
+    ],
+    "train_end": 6298,
+    "min_count": 0,
+    "zero_contexts": 2,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2015,
+    "thresholds": [
+      15.51,
+      21.46
+    ],
+    "train_end": 6298,
+    "min_count": 0,
+    "zero_contexts": 11,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2016,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6550,
+    "min_count": 6550,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2016,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6550,
+    "min_count": 2603,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2016,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6550,
+    "min_count": 163,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2016,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6550,
+    "min_count": 45,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2016,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6550,
+    "min_count": 6550,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2016,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6550,
+    "min_count": 1223,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2016,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6550,
+    "min_count": 115,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2016,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6550,
+    "min_count": 28,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2016,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6550,
+    "min_count": 6550,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2016,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6550,
+    "min_count": 582,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2016,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6550,
+    "min_count": 65,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2016,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6550,
+    "min_count": 13,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2016,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6550,
+    "min_count": 6550,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2016,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6550,
+    "min_count": 292,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2016,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6550,
+    "min_count": 34,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2016,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6550,
+    "min_count": 7,
+    "zero_contexts": 0,
+    "sparse_contexts": 4,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2016,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6550,
+    "min_count": 6550,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2016,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6550,
+    "min_count": 582,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2016,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6550,
+    "min_count": 0,
+    "zero_contexts": 2,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2016,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6550,
+    "min_count": 0,
+    "zero_contexts": 11,
+    "sparse_contexts": 14,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2016,
+    "thresholds": [
+      24.562000000000005
+    ],
+    "train_end": 6550,
+    "min_count": 6550,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2016,
+    "thresholds": [
+      24.562000000000005
+    ],
+    "train_end": 6550,
+    "min_count": 1310,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2016,
+    "thresholds": [
+      24.562000000000005
+    ],
+    "train_end": 6550,
+    "min_count": 119,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2016,
+    "thresholds": [
+      24.562000000000005
+    ],
+    "train_end": 6550,
+    "min_count": 36,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2016,
+    "thresholds": [
+      15.43,
+      21.24
+    ],
+    "train_end": 6550,
+    "min_count": 6550,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2016,
+    "thresholds": [
+      15.43,
+      21.24
+    ],
+    "train_end": 6550,
+    "min_count": 2181,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2016,
+    "thresholds": [
+      15.43,
+      21.24
+    ],
+    "train_end": 6550,
+    "min_count": 0,
+    "zero_contexts": 2,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2016,
+    "thresholds": [
+      15.43,
+      21.24
+    ],
+    "train_end": 6550,
+    "min_count": 0,
+    "zero_contexts": 10,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2017,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6802,
+    "min_count": 6802,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2017,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6802,
+    "min_count": 2645,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2017,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6802,
+    "min_count": 172,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2017,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 6802,
+    "min_count": 49,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2017,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6802,
+    "min_count": 6802,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2017,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6802,
+    "min_count": 1235,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2017,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6802,
+    "min_count": 120,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2017,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 6802,
+    "min_count": 29,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2017,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6802,
+    "min_count": 6802,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2017,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6802,
+    "min_count": 582,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2017,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6802,
+    "min_count": 65,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2017,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 6802,
+    "min_count": 13,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2017,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6802,
+    "min_count": 6802,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2017,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6802,
+    "min_count": 292,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2017,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6802,
+    "min_count": 34,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2017,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 6802,
+    "min_count": 7,
+    "zero_contexts": 0,
+    "sparse_contexts": 4,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2017,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6802,
+    "min_count": 6802,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2017,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6802,
+    "min_count": 582,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2017,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6802,
+    "min_count": 0,
+    "zero_contexts": 2,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2017,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 6802,
+    "min_count": 0,
+    "zero_contexts": 11,
+    "sparse_contexts": 14,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2017,
+    "thresholds": [
+      24.4
+    ],
+    "train_end": 6802,
+    "min_count": 6802,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2017,
+    "thresholds": [
+      24.4
+    ],
+    "train_end": 6802,
+    "min_count": 1366,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2017,
+    "thresholds": [
+      24.4
+    ],
+    "train_end": 6802,
+    "min_count": 127,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2017,
+    "thresholds": [
+      24.4
+    ],
+    "train_end": 6802,
+    "min_count": 39,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2017,
+    "thresholds": [
+      15.23,
+      21.12
+    ],
+    "train_end": 6802,
+    "min_count": 6802,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2017,
+    "thresholds": [
+      15.23,
+      21.12
+    ],
+    "train_end": 6802,
+    "min_count": 2260,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2017,
+    "thresholds": [
+      15.23,
+      21.12
+    ],
+    "train_end": 6802,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2017,
+    "thresholds": [
+      15.23,
+      21.12
+    ],
+    "train_end": 6802,
+    "min_count": 0,
+    "zero_contexts": 8,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2018,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7053,
+    "min_count": 7053,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2018,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7053,
+    "min_count": 2645,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2018,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7053,
+    "min_count": 172,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2018,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7053,
+    "min_count": 49,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2018,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7053,
+    "min_count": 7053,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2018,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7053,
+    "min_count": 1235,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2018,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7053,
+    "min_count": 120,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2018,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7053,
+    "min_count": 29,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2018,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7053,
+    "min_count": 7053,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2018,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7053,
+    "min_count": 582,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2018,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7053,
+    "min_count": 65,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2018,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7053,
+    "min_count": 13,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2018,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7053,
+    "min_count": 7053,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2018,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7053,
+    "min_count": 292,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2018,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7053,
+    "min_count": 34,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2018,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7053,
+    "min_count": 7,
+    "zero_contexts": 0,
+    "sparse_contexts": 4,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2018,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7053,
+    "min_count": 7053,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2018,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7053,
+    "min_count": 582,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2018,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7053,
+    "min_count": 0,
+    "zero_contexts": 2,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2018,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7053,
+    "min_count": 0,
+    "zero_contexts": 11,
+    "sparse_contexts": 14,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2018,
+    "thresholds": [
+      24.26
+    ],
+    "train_end": 7053,
+    "min_count": 7053,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2018,
+    "thresholds": [
+      24.26
+    ],
+    "train_end": 7053,
+    "min_count": 1412,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2018,
+    "thresholds": [
+      24.26
+    ],
+    "train_end": 7053,
+    "min_count": 125,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2018,
+    "thresholds": [
+      24.26
+    ],
+    "train_end": 7053,
+    "min_count": 37,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2018,
+    "thresholds": [
+      14.86,
+      20.84333333333333
+    ],
+    "train_end": 7053,
+    "min_count": 7053,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2018,
+    "thresholds": [
+      14.86,
+      20.84333333333333
+    ],
+    "train_end": 7053,
+    "min_count": 2348,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2018,
+    "thresholds": [
+      14.86,
+      20.84333333333333
+    ],
+    "train_end": 7053,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2018,
+    "thresholds": [
+      14.86,
+      20.84333333333333
+    ],
+    "train_end": 7053,
+    "min_count": 0,
+    "zero_contexts": 8,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2019,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7304,
+    "min_count": 7304,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2019,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7304,
+    "min_count": 2703,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2019,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7304,
+    "min_count": 183,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2019,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7304,
+    "min_count": 51,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2019,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7304,
+    "min_count": 7304,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2019,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7304,
+    "min_count": 1250,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2019,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7304,
+    "min_count": 122,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2019,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7304,
+    "min_count": 29,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2019,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7304,
+    "min_count": 7304,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2019,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7304,
+    "min_count": 587,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2019,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7304,
+    "min_count": 68,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2019,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7304,
+    "min_count": 13,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2019,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7304,
+    "min_count": 7304,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2019,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7304,
+    "min_count": 294,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2019,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7304,
+    "min_count": 36,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2019,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7304,
+    "min_count": 7,
+    "zero_contexts": 0,
+    "sparse_contexts": 4,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2019,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7304,
+    "min_count": 7304,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2019,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7304,
+    "min_count": 587,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2019,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7304,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2019,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7304,
+    "min_count": 0,
+    "zero_contexts": 9,
+    "sparse_contexts": 14,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2019,
+    "thresholds": [
+      24.15
+    ],
+    "train_end": 7304,
+    "min_count": 7304,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2019,
+    "thresholds": [
+      24.15
+    ],
+    "train_end": 7304,
+    "min_count": 1463,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2019,
+    "thresholds": [
+      24.15
+    ],
+    "train_end": 7304,
+    "min_count": 132,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2019,
+    "thresholds": [
+      24.15
+    ],
+    "train_end": 7304,
+    "min_count": 37,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2019,
+    "thresholds": [
+      14.79,
+      20.74
+    ],
+    "train_end": 7304,
+    "min_count": 7304,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2019,
+    "thresholds": [
+      14.79,
+      20.74
+    ],
+    "train_end": 7304,
+    "min_count": 2428,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2019,
+    "thresholds": [
+      14.79,
+      20.74
+    ],
+    "train_end": 7304,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2019,
+    "thresholds": [
+      14.79,
+      20.74
+    ],
+    "train_end": 7304,
+    "min_count": 0,
+    "zero_contexts": 8,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2020,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7556,
+    "min_count": 7556,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2020,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7556,
+    "min_count": 2719,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2020,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7556,
+    "min_count": 192,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2020,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7556,
+    "min_count": 52,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2020,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7556,
+    "min_count": 7556,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2020,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7556,
+    "min_count": 1252,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2020,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7556,
+    "min_count": 124,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2020,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7556,
+    "min_count": 30,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2020,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7556,
+    "min_count": 7556,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2020,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7556,
+    "min_count": 587,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2020,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7556,
+    "min_count": 68,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2020,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7556,
+    "min_count": 13,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2020,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7556,
+    "min_count": 7556,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2020,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7556,
+    "min_count": 294,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2020,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7556,
+    "min_count": 36,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2020,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7556,
+    "min_count": 7,
+    "zero_contexts": 0,
+    "sparse_contexts": 4,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2020,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7556,
+    "min_count": 7556,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2020,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7556,
+    "min_count": 587,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2020,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7556,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2020,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7556,
+    "min_count": 0,
+    "zero_contexts": 9,
+    "sparse_contexts": 14,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2020,
+    "thresholds": [
+      23.95
+    ],
+    "train_end": 7556,
+    "min_count": 7556,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2020,
+    "thresholds": [
+      23.95
+    ],
+    "train_end": 7556,
+    "min_count": 1514,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2020,
+    "thresholds": [
+      23.95
+    ],
+    "train_end": 7556,
+    "min_count": 131,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2020,
+    "thresholds": [
+      23.95
+    ],
+    "train_end": 7556,
+    "min_count": 32,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2020,
+    "thresholds": [
+      14.72,
+      20.55
+    ],
+    "train_end": 7556,
+    "min_count": 7556,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2020,
+    "thresholds": [
+      14.72,
+      20.55
+    ],
+    "train_end": 7556,
+    "min_count": 2512,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2020,
+    "thresholds": [
+      14.72,
+      20.55
+    ],
+    "train_end": 7556,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2020,
+    "thresholds": [
+      14.72,
+      20.55
+    ],
+    "train_end": 7556,
+    "min_count": 0,
+    "zero_contexts": 8,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2021,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7809,
+    "min_count": 7809,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2021,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7809,
+    "min_count": 2936,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2021,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7809,
+    "min_count": 192,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2021,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 7809,
+    "min_count": 52,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2021,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7809,
+    "min_count": 7809,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2021,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7809,
+    "min_count": 1407,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2021,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7809,
+    "min_count": 132,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2021,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 7809,
+    "min_count": 33,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2021,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7809,
+    "min_count": 7809,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2021,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7809,
+    "min_count": 667,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2021,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7809,
+    "min_count": 75,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2021,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 7809,
+    "min_count": 14,
+    "zero_contexts": 0,
+    "sparse_contexts": 1,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2021,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7809,
+    "min_count": 7809,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2021,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7809,
+    "min_count": 344,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2021,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7809,
+    "min_count": 44,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2021,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 7809,
+    "min_count": 9,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2021,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7809,
+    "min_count": 7809,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2021,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7809,
+    "min_count": 667,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2021,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7809,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2021,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 7809,
+    "min_count": 0,
+    "zero_contexts": 9,
+    "sparse_contexts": 14,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2021,
+    "thresholds": [
+      24.38
+    ],
+    "train_end": 7809,
+    "min_count": 7809,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2021,
+    "thresholds": [
+      24.38
+    ],
+    "train_end": 7809,
+    "min_count": 1564,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2021,
+    "thresholds": [
+      24.38
+    ],
+    "train_end": 7809,
+    "min_count": 143,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2021,
+    "thresholds": [
+      24.38
+    ],
+    "train_end": 7809,
+    "min_count": 44,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2021,
+    "thresholds": [
+      14.84,
+      20.88333333333333
+    ],
+    "train_end": 7809,
+    "min_count": 7809,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2021,
+    "thresholds": [
+      14.84,
+      20.88333333333333
+    ],
+    "train_end": 7809,
+    "min_count": 2601,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2021,
+    "thresholds": [
+      14.84,
+      20.88333333333333
+    ],
+    "train_end": 7809,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2021,
+    "thresholds": [
+      14.84,
+      20.88333333333333
+    ],
+    "train_end": 7809,
+    "min_count": 0,
+    "zero_contexts": 8,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2022,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8061,
+    "min_count": 8061,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2022,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8061,
+    "min_count": 3029,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2022,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8061,
+    "min_count": 210,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2022,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8061,
+    "min_count": 57,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2022,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8061,
+    "min_count": 8061,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2022,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8061,
+    "min_count": 1428,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2022,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8061,
+    "min_count": 141,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2022,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8061,
+    "min_count": 35,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2022,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8061,
+    "min_count": 8061,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2022,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8061,
+    "min_count": 673,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2022,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8061,
+    "min_count": 78,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2022,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8061,
+    "min_count": 15,
+    "zero_contexts": 0,
+    "sparse_contexts": 1,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2022,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8061,
+    "min_count": 8061,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2022,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8061,
+    "min_count": 345,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2022,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8061,
+    "min_count": 45,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2022,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8061,
+    "min_count": 9,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2022,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8061,
+    "min_count": 8061,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2022,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8061,
+    "min_count": 673,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2022,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8061,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2022,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8061,
+    "min_count": 0,
+    "zero_contexts": 9,
+    "sparse_contexts": 13,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2022,
+    "thresholds": [
+      24.3
+    ],
+    "train_end": 8061,
+    "min_count": 8061,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2022,
+    "thresholds": [
+      24.3
+    ],
+    "train_end": 8061,
+    "min_count": 1613,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2022,
+    "thresholds": [
+      24.3
+    ],
+    "train_end": 8061,
+    "min_count": 149,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2022,
+    "thresholds": [
+      24.3
+    ],
+    "train_end": 8061,
+    "min_count": 44,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2022,
+    "thresholds": [
+      14.996666666666664,
+      20.87
+    ],
+    "train_end": 8061,
+    "min_count": 8061,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2022,
+    "thresholds": [
+      14.996666666666664,
+      20.87
+    ],
+    "train_end": 8061,
+    "min_count": 2682,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2022,
+    "thresholds": [
+      14.996666666666664,
+      20.87
+    ],
+    "train_end": 8061,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2022,
+    "thresholds": [
+      14.996666666666664,
+      20.87
+    ],
+    "train_end": 8061,
+    "min_count": 0,
+    "zero_contexts": 8,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2023,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8317,
+    "min_count": 8317,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2023,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8317,
+    "min_count": 3261,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2023,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8317,
+    "min_count": 217,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2023,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8317,
+    "min_count": 60,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2023,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8317,
+    "min_count": 8317,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2023,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8317,
+    "min_count": 1563,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2023,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8317,
+    "min_count": 153,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2023,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8317,
+    "min_count": 38,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2023,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8317,
+    "min_count": 8317,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2023,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8317,
+    "min_count": 722,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2023,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8317,
+    "min_count": 89,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2023,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8317,
+    "min_count": 18,
+    "zero_contexts": 0,
+    "sparse_contexts": 1,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2023,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8317,
+    "min_count": 8317,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2023,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8317,
+    "min_count": 347,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2023,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8317,
+    "min_count": 46,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2023,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8317,
+    "min_count": 9,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2023,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8317,
+    "min_count": 8317,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2023,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8317,
+    "min_count": 722,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2023,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8317,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2023,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8317,
+    "min_count": 0,
+    "zero_contexts": 9,
+    "sparse_contexts": 13,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2023,
+    "thresholds": [
+      24.59
+    ],
+    "train_end": 8317,
+    "min_count": 8317,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2023,
+    "thresholds": [
+      24.59
+    ],
+    "train_end": 8317,
+    "min_count": 1665,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2023,
+    "thresholds": [
+      24.59
+    ],
+    "train_end": 8317,
+    "min_count": 159,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2023,
+    "thresholds": [
+      24.59
+    ],
+    "train_end": 8317,
+    "min_count": 45,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2023,
+    "thresholds": [
+      15.18,
+      21.22
+    ],
+    "train_end": 8317,
+    "min_count": 8317,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2023,
+    "thresholds": [
+      15.18,
+      21.22
+    ],
+    "train_end": 8317,
+    "min_count": 2770,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2023,
+    "thresholds": [
+      15.18,
+      21.22
+    ],
+    "train_end": 8317,
+    "min_count": 0,
+    "zero_contexts": 2,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2023,
+    "thresholds": [
+      15.18,
+      21.22
+    ],
+    "train_end": 8317,
+    "min_count": 0,
+    "zero_contexts": 10,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2024,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8574,
+    "min_count": 8574,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2024,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8574,
+    "min_count": 3305,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2024,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8574,
+    "min_count": 226,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2024,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8574,
+    "min_count": 61,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2024,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8574,
+    "min_count": 8574,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2024,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8574,
+    "min_count": 1566,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2024,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8574,
+    "min_count": 156,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2024,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8574,
+    "min_count": 40,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2024,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8574,
+    "min_count": 8574,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2024,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8574,
+    "min_count": 722,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2024,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8574,
+    "min_count": 89,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2024,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8574,
+    "min_count": 18,
+    "zero_contexts": 0,
+    "sparse_contexts": 1,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2024,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8574,
+    "min_count": 8574,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2024,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8574,
+    "min_count": 347,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2024,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8574,
+    "min_count": 46,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2024,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8574,
+    "min_count": 9,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2024,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8574,
+    "min_count": 8574,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2024,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8574,
+    "min_count": 722,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2024,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8574,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2024,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8574,
+    "min_count": 0,
+    "zero_contexts": 9,
+    "sparse_contexts": 13,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2024,
+    "thresholds": [
+      24.424000000000007
+    ],
+    "train_end": 8574,
+    "min_count": 8574,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2024,
+    "thresholds": [
+      24.424000000000007
+    ],
+    "train_end": 8574,
+    "min_count": 1715,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2024,
+    "thresholds": [
+      24.424000000000007
+    ],
+    "train_end": 8574,
+    "min_count": 163,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2024,
+    "thresholds": [
+      24.424000000000007
+    ],
+    "train_end": 8574,
+    "min_count": 51,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2024,
+    "thresholds": [
+      15.14,
+      21.09
+    ],
+    "train_end": 8574,
+    "min_count": 8574,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2024,
+    "thresholds": [
+      15.14,
+      21.09
+    ],
+    "train_end": 8574,
+    "min_count": 2854,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2024,
+    "thresholds": [
+      15.14,
+      21.09
+    ],
+    "train_end": 8574,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2024,
+    "thresholds": [
+      15.14,
+      21.09
+    ],
+    "train_end": 8574,
+    "min_count": 0,
+    "zero_contexts": 8,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2025,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8833,
+    "min_count": 8833,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2025,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8833,
+    "min_count": 3330,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2025,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8833,
+    "min_count": 235,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2025,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 8833,
+    "min_count": 64,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2025,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8833,
+    "min_count": 8833,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2025,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8833,
+    "min_count": 1570,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2025,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8833,
+    "min_count": 158,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2025,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 8833,
+    "min_count": 40,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2025,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8833,
+    "min_count": 8833,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2025,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8833,
+    "min_count": 723,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2025,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8833,
+    "min_count": 90,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2025,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 8833,
+    "min_count": 18,
+    "zero_contexts": 0,
+    "sparse_contexts": 1,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2025,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8833,
+    "min_count": 8833,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2025,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8833,
+    "min_count": 348,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2025,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8833,
+    "min_count": 47,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2025,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 8833,
+    "min_count": 9,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2025,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8833,
+    "min_count": 8833,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2025,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8833,
+    "min_count": 723,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2025,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8833,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2025,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 8833,
+    "min_count": 0,
+    "zero_contexts": 9,
+    "sparse_contexts": 13,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2025,
+    "thresholds": [
+      24.306000000000004
+    ],
+    "train_end": 8833,
+    "min_count": 8833,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2025,
+    "thresholds": [
+      24.306000000000004
+    ],
+    "train_end": 8833,
+    "min_count": 1767,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2025,
+    "thresholds": [
+      24.306000000000004
+    ],
+    "train_end": 8833,
+    "min_count": 167,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2025,
+    "thresholds": [
+      24.306000000000004
+    ],
+    "train_end": 8833,
+    "min_count": 47,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2025,
+    "thresholds": [
+      15.03,
+      20.88
+    ],
+    "train_end": 8833,
+    "min_count": 8833,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2025,
+    "thresholds": [
+      15.03,
+      20.88
+    ],
+    "train_end": 8833,
+    "min_count": 2941,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2025,
+    "thresholds": [
+      15.03,
+      20.88
+    ],
+    "train_end": 8833,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2025,
+    "thresholds": [
+      15.03,
+      20.88
+    ],
+    "train_end": 8833,
+    "min_count": 0,
+    "zero_contexts": 8,
+    "sparse_contexts": 12,
+    "states": 27
+  },
+  {
+    "name": "binary20",
+    "k": 0,
+    "year": 2026,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 9091,
+    "min_count": 9091,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary20",
+    "k": 1,
+    "year": 2026,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 9091,
+    "min_count": 3395,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary20",
+    "k": 2,
+    "year": 2026,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 9091,
+    "min_count": 246,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary20",
+    "k": 3,
+    "year": 2026,
+    "thresholds": [
+      20.0
+    ],
+    "train_end": 9091,
+    "min_count": 68,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary25",
+    "k": 0,
+    "year": 2026,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 9091,
+    "min_count": 9091,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary25",
+    "k": 1,
+    "year": 2026,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 9091,
+    "min_count": 1590,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary25",
+    "k": 2,
+    "year": 2026,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 9091,
+    "min_count": 163,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary25",
+    "k": 3,
+    "year": 2026,
+    "thresholds": [
+      25.0
+    ],
+    "train_end": 9091,
+    "min_count": 41,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "binary30",
+    "k": 0,
+    "year": 2026,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 9091,
+    "min_count": 9091,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary30",
+    "k": 1,
+    "year": 2026,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 9091,
+    "min_count": 735,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary30",
+    "k": 2,
+    "year": 2026,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 9091,
+    "min_count": 92,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary30",
+    "k": 3,
+    "year": 2026,
+    "thresholds": [
+      30.0
+    ],
+    "train_end": 9091,
+    "min_count": 19,
+    "zero_contexts": 0,
+    "sparse_contexts": 1,
+    "states": 8
+  },
+  {
+    "name": "binary35",
+    "k": 0,
+    "year": 2026,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 9091,
+    "min_count": 9091,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary35",
+    "k": 1,
+    "year": 2026,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 9091,
+    "min_count": 353,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary35",
+    "k": 2,
+    "year": 2026,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 9091,
+    "min_count": 49,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary35",
+    "k": 3,
+    "year": 2026,
+    "thresholds": [
+      35.0
+    ],
+    "train_end": 9091,
+    "min_count": 10,
+    "zero_contexts": 0,
+    "sparse_contexts": 2,
+    "states": 8
+  },
+  {
+    "name": "ternary20_30",
+    "k": 0,
+    "year": 2026,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 9091,
+    "min_count": 9091,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary20_30",
+    "k": 1,
+    "year": 2026,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 9091,
+    "min_count": 735,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary20_30",
+    "k": 2,
+    "year": 2026,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 9091,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary20_30",
+    "k": 3,
+    "year": 2026,
+    "thresholds": [
+      20.0,
+      30.0
+    ],
+    "train_end": 9091,
+    "min_count": 0,
+    "zero_contexts": 9,
+    "sparse_contexts": 13,
+    "states": 27
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 0,
+    "year": 2026,
+    "thresholds": [
+      24.23
+    ],
+    "train_end": 9091,
+    "min_count": 9091,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 1,
+    "year": 2026,
+    "thresholds": [
+      24.23
+    ],
+    "train_end": 9091,
+    "min_count": 1821,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 2
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 2,
+    "year": 2026,
+    "thresholds": [
+      24.23
+    ],
+    "train_end": 9091,
+    "min_count": 174,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 4
+  },
+  {
+    "name": "binary_train_q80",
+    "k": 3,
+    "year": 2026,
+    "thresholds": [
+      24.23
+    ],
+    "train_end": 9091,
+    "min_count": 46,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 8
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 0,
+    "year": 2026,
+    "thresholds": [
+      15.13,
+      20.81
+    ],
+    "train_end": 9091,
+    "min_count": 9091,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 1
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 1,
+    "year": 2026,
+    "thresholds": [
+      15.13,
+      20.81
+    ],
+    "train_end": 9091,
+    "min_count": 3028,
+    "zero_contexts": 0,
+    "sparse_contexts": 0,
+    "states": 3
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 2,
+    "year": 2026,
+    "thresholds": [
+      15.13,
+      20.81
+    ],
+    "train_end": 9091,
+    "min_count": 0,
+    "zero_contexts": 1,
+    "sparse_contexts": 2,
+    "states": 9
+  },
+  {
+    "name": "ternary_train_tertiles",
+    "k": 3,
+    "year": 2026,
+    "thresholds": [
+      15.13,
+      20.81
+    ],
+    "train_end": 9091,
+    "min_count": 0,
+    "zero_contexts": 8,
+    "sparse_contexts": 12,
+    "states": 27
+  }
+]

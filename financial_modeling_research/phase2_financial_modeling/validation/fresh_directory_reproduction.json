@@ -1,0 +1,14 @@
+{
+  "method": "new working-directory rerun using the same validated dependency runtime and original official CSV; not a new dependency installation",
+  "all_compared_outputs_identical": true,
+  "checks": {
+    "results/outer_forecasts.csv.gz": true,
+    "results/all_fitted_models.json.gz": true,
+    "results/outer_summary.csv": true,
+    "results/paired_block_intervals.csv": true,
+    "models/frozen_principal.json": true,
+    "models/frozen_fallback.json": true,
+    "results/exact_event_checks.csv": true
+  },
+  "tests_passed": true
+}

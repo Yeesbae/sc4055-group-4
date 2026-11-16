@@ -1,0 +1,6 @@
+model,history_states,causal_states,unobserved_contexts,contexts_below25,physical_memory_qubits_conventional_upper,output_qubits,total_register_design_qubits,quantum_status
+ternary20_30_k1,3,3,0,0,2,12,18,small zero-phase construction available
+ternary20_30_k2,9,9,1,2,4,12,20,exact nine-state zero-phase instrument verified
+ternary20_30_k3,27,24,9,13,5,12,21,large sparse factorization unresolved in Phase 2
+binary30_k2,4,4,0,0,2,6,12,small zero-phase construction available
+binary30_k1,2,2,0,0,1,6,11,small zero-phase construction available

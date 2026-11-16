@@ -1,0 +1,15 @@
+{
+  "scope": "fresh-directory statistical/mathematical analysis rerun using the same installed scientific runtime; previously measured quantum pilot artifacts retained and tested, not retimed",
+  "checks": {
+    "results/forecasts.csv.gz": true,
+    "results/direct_paired_intervals.csv": true,
+    "results/exact_events.csv": true,
+    "results/all_phase_dimension_certificate.json": true,
+    "results/exact_probability_rank.json": true,
+    "model/nine_state_model_specification.json": true,
+    "SC4055_V3_Phase3_Nine_State_Model_Specification.json": true,
+    "V3_Model_Decision.json": true
+  },
+  "all_equal": true,
+  "tests_pass": true
+}

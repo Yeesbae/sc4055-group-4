@@ -1,0 +1,7 @@
+{
+  "weighted_rare_transition_exposure": 0.001909068662854442,
+  "weighted_robust_interval_width": 0.0015524832967490371,
+  "current_rare_origins": 1,
+  "total_origins": 2943,
+  "meaning": "Envelope allows rare-row probabilities to vary at every visit. It is a conservative bound for every fixed rare-row replacement, not an exact confidence interval."
+}

@@ -1,0 +1,13 @@
+test_DP_independent_enumeration (test_research.ResearchTests.test_DP_independent_enumeration) ... ok
+test_Gram_and_instrument (test_research.ResearchTests.test_Gram_and_instrument) ... ok
+test_base_m_history_and_update (test_research.ResearchTests.test_base_m_history_and_update) ... ok
+test_every_exported_fit_normalized_and_past_only (test_research.ResearchTests.test_every_exported_fit_normalized_and_past_only) ... ok
+test_future_equivalence_requires_more_than_emission_equality (test_research.ResearchTests.test_future_equivalence_requires_more_than_emission_equality) ... ok
+test_future_invariance_of_fitting (test_research.ResearchTests.test_future_invariance_of_fitting) ... ok
+test_minimal_quotient_preserves_word_probabilities (test_research.ResearchTests.test_minimal_quotient_preserves_word_probabilities) ... ok
+test_saved_forecast_temporal_contract (test_research.ResearchTests.test_saved_forecast_temporal_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.558s
+
+OK

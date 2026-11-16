@@ -1,0 +1,41 @@
+{
+  "model": {
+    "threshold": 35,
+    "order": 1,
+    "counts": [
+      [
+        8898,
+        49
+      ],
+      [
+        49,
+        304
+      ]
+    ],
+    "emissions": [
+      [
+        0.9944680375502906,
+        0.0055319624497094325
+      ],
+      [
+        0.13983050847457626,
+        0.8601694915254238
+      ]
+    ]
+  },
+  "event": "first severe entry within six trading observations when current<35; hit probability otherwise",
+  "values": [
+    {
+      "state": 0,
+      "DP": 0.03273610740296969,
+      "enumeration": 0.03273610740296971,
+      "difference": 1.3877787807814457e-17
+    },
+    {
+      "state": 1,
+      "DP": 0.8639946214218063,
+      "enumeration": 0.8639946214218065,
+      "difference": 2.220446049250313e-16
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "source_url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+  "resolved_url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+  "download_date": "2026-10-25",
+  "sha256": "f94378e505b286168d8dd466cc3a30bb12606ba34084d7ac53de953c75ba2ecd",
+  "raw_bytes": 474094,
+  "raw_rows": 9301,
+  "duplicates": 0,
+  "missing_close": 0,
+  "missing_all_fields": {
+    "DATE": 0,
+    "OPEN": 0,
+    "HIGH": 0,
+    "LOW": 0,
+    "CLOSE": 0,
+    "date": 0
+  },
+  "unsorted": false,
+  "clean_date_close_sha256": "44b32645d54961aa0d4b0404a783dc982a2c0067063bd4de3a08b830fea03a9c",
+  "rows_used": 9301,
+  "coverage": [
+    "1990-01-02",
+    "2026-10-23"
+  ],
+  "excluded_after_cutoff": 0,
+  "weekend_rows": 0,
+  "gap_days_histogram": {
+    "0": 1,
+    "1": 7300,
+    "2": 79,
+    "3": 1704,
+    "4": 214,
+    "5": 2,
+    "7": 1
+  },
+  "long_gaps_over4_days": [
+    {
+      "next_date": "2001-09-17",
+      "gap_days": 7
+    },
+    {
+      "next_date": "2007-01-03",
+      "gap_days": 5
+    },
+    {
+      "next_date": "2012-10-31",
+      "gap_days": 5
+    }
+  ],
+  "cleaning": "Parse dates strictly, reject duplicates/missing/nonpositive closes, sort ascending, cap at 2026-10-23. No forward filling, no calendar-day interpolation. CLOSE only.",
+  "calendar_check": "Rows are source trading observations, not inferred business-day rows. No independent exchange holiday-calendar reconciliation; gaps are flagged, not assumed missing.",
+  "methodology": "2003 SPX wide-strike method replaced original OEX VIX (now VXO); supplied history back to 1990. Weekly options added 2014-10-06; this change was not backdated. Mixed methodology remains a regime caveat.",
+  "licensing": "Official public download verified; raw redistribution license not established. Raw CSV is kept private and excluded from ZIP; download script and hash included.",
+  "data_unit": "Index-level daily observations, not borrower-level/default/security loss data"
+}

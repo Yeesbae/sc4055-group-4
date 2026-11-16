@@ -1,0 +1,222 @@
+{
+  "model_version": "V3.0-Phase2-1.0",
+  "tag": "binary30_k2",
+  "observation": "binary30",
+  "thresholds": [
+    30.0
+  ],
+  "indexing": "oldest to newest, state integer is base-m encoding; symbols >= threshold use upper bin",
+  "state_labels": [
+    "00",
+    "01",
+    "10",
+    "11"
+  ],
+  "order": 2,
+  "alphabet": [
+    0,
+    1
+  ],
+  "alpha_per_symbol": 0.5,
+  "counts": [
+    [
+      8395,
+      74
+    ],
+    [
+      29,
+      64
+    ],
+    [
+      74,
+      19
+    ],
+    [
+      64,
+      580
+    ]
+  ],
+  "emission_probabilities": [
+    [
+      0.9912042502951594,
+      0.008795749704840613
+    ],
+    [
+      0.31382978723404253,
+      0.6861702127659575
+    ],
+    [
+      0.7925531914893617,
+      0.2074468085106383
+    ],
+    [
+      0.1,
+      0.9
+    ]
+  ],
+  "emission_probabilities_rational": [
+    [
+      "16791/16940",
+      "149/16940"
+    ],
+    [
+      "59/188",
+      "129/188"
+    ],
+    [
+      "149/188",
+      "39/188"
+    ],
+    [
+      "1/10",
+      "9/10"
+    ]
+  ],
+  "lambda": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "T_emission": [
+    [
+      [
+        0.9912042502951594,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.31382978723404253,
+        0.0
+      ],
+      [
+        0.7925531914893617,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.1,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.008795749704840613,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.6861702127659575
+      ],
+      [
+        0.0,
+        0.2074468085106383,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.9
+      ]
+    ]
+  ],
+  "T": [
+    [
+      0.9912042502951594,
+      0.008795749704840613,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.31382978723404253,
+      0.6861702127659575
+    ],
+    [
+      0.7925531914893617,
+      0.2074468085106383,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.1,
+      0.9
+    ]
+  ],
+  "stationary_occupancy": [
+    0.9104589917230997,
+    0.01010426744061056,
+    0.010104267440610595,
+    0.06933247339567919
+  ],
+  "reachable_states": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "reachability_proof": "Dirichlet smoothing gives every symbol positive probability; each length-k word reaches its own context from any start. Irreducible with self loops, unique stationary distribution.",
+  "causal_minimization": {
+    "D_c": 4,
+    "blocks": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "refinement_class_counts": [
+      4,
+      4
+    ],
+    "exact_equality": "rational counts plus rational Dirichlet prior; no distance tolerance",
+    "scope": "causal states of this positive fitted finite-order process only"
+  },
+  "event": {
+    "kind": "count",
+    "L": 6,
+    "K": 3
+  },
+  "high_symbol": 1,
+  "exact_model_event_probabilities": [
+    0.023111790775164287,
+    0.6281391827434637,
+    0.15574815159193917,
+    0.7769530860062422
+  ],
+  "enumeration_DP_max_difference": 1.1102230246251565e-16,
+  "fit_coverage": [
+    "1990-01-02",
+    "2026-10-23"
+  ],
+  "data_manifest": "data/manifests/vix_manifest.json",
+  "threshold_rationale": "fixed 30 persistent stress proxy; 20 split tests moderate-state information. No official default/risk cutoff.",
+  "validation": "retrospective nested rolling-origin forecasts, prospective holdout unavailable; deployment refit is not retrospectively scored as an untouched model",
+  "uncertainty": "context_counts.csv contains nominal Dirichlet/Beta intervals; event_uncertainty.csv adds posterior propagation and dependent block refits; nonstationarity unresolved"
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "year": 2015,
+    "ridge_success": true,
+    "ridge_message": "Desired error not necessarily achieved due to precision loss.",
+    "ridge_gradient_max": 5.329375755924737e-06,
+    "ridge_coefficients": [
+      -8.103105743447585,
+      5.715529118010892,
+      -0.21508421606666234
+    ],
+    "training_event_origins": 6291,
+    "last_training_event_end": "2014-12-31"
+  },
+  {
+    "year": 2016,
+    "ridge_success": true,
+    "ridge_message": "Desired error not necessarily achieved due to precision loss.",
+    "ridge_gradient_max": 1.8270350037874472e-06,
+    "ridge_coefficients": [
+      -7.730873113960269,
+      5.3159123666898305,
+      -0.13372366807582725
+    ],
+    "training_event_origins": 6543,
+    "last_training_event_end": "2015-12-31"
+  },
+  {
+    "year": 2017,
+    "ridge_success": true,
+    "ridge_message": "Optimization terminated successfully.",
+    "ridge_gradient_max": 1.9606867401877892e-07,
+    "ridge_coefficients": [
+      -7.881250018556153,
+      5.313983909163745,
+      -0.13894943031350143
+    ],
+    "training_event_origins": 6795,
+    "last_training_event_end": "2016-12-30"
+  },
+  {
+    "year": 2018,
+    "ridge_success": true,
+    "ridge_message": "Desired error not necessarily achieved due to precision loss.",
+    "ridge_gradient_max": 8.695322951612905e-06,
+    "ridge_coefficients": [
+      -8.147184668815644,
+      5.4204378103484325,
+      -0.13898071676953472
+    ],
+    "training_event_origins": 7046,
+    "last_training_event_end": "2017-12-29"
+  },
+  {
+    "year": 2019,
+    "ridge_success": true,
+    "ridge_message": "Optimization terminated successfully.",
+    "ridge_gradient_max": 6.177839406706909e-08,
+    "ridge_coefficients": [
+      -8.109482683743426,
+      5.317593662042393,
+      -0.16092821407169955
+    ],
+    "training_event_origins": 7297,
+    "last_training_event_end": "2018-12-31"
+  },
+  {
+    "year": 2020,
+    "ridge_success": true,
+    "ridge_message": "Optimization terminated successfully.",
+    "ridge_gradient_max": 7.254471373049946e-08,
+    "ridge_coefficients": [
+      -8.174582014555225,
+      5.251225552677017,
+      -0.16455516312989324
+    ],
+    "training_event_origins": 7549,
+    "last_training_event_end": "2019-12-31"
+  },
+  {
+    "year": 2021,
+    "ridge_success": true,
+    "ridge_message": "Optimization terminated successfully.",
+    "ridge_gradient_max": 4.347291786138685e-07,
+    "ridge_coefficients": [
+      -7.6464254651979235,
+      5.142995781165532,
+      -0.12131952657393634
+    ],
+    "training_event_origins": 7802,
+    "last_training_event_end": "2020-12-31"
+  },
+  {
+    "year": 2022,
+    "ridge_success": true,
+    "ridge_message": "Optimization terminated successfully.",
+    "ridge_gradient_max": 5.256913721413126e-07,
+    "ridge_coefficients": [
+      -7.496662714402306,
+      4.989978572805355,
+      -0.1202411986095564
+    ],
+    "training_event_origins": 8054,
+    "last_training_event_end": "2021-12-31"
+  },
+  {
+    "year": 2023,
+    "ridge_success": true,
+    "ridge_message": "Optimization terminated successfully.",
+    "ridge_gradient_max": 4.575423791621305e-08,
+    "ridge_coefficients": [
+      -7.282488393355906,
+      4.979891986699176,
+      -0.07627665907845647
+    ],
+    "training_event_origins": 8310,
+    "last_training_event_end": "2022-12-30"
+  },
+  {
+    "year": 2024,
+    "ridge_success": true,
+    "ridge_message": "Optimization terminated successfully.",
+    "ridge_gradient_max": 8.25043655477975e-08,
+    "ridge_coefficients": [
+      -7.349431729144023,
+      4.948973618557856,
+      -0.07722204711479719
+    ],
+    "training_event_origins": 8567,
+    "last_training_event_end": "2023-12-29"
+  },
+  {
+    "year": 2025,
+    "ridge_success": true,
+    "ridge_message": "Optimization terminated successfully.",
+    "ridge_gradient_max": 1.4696417856285837e-07,
+    "ridge_coefficients": [
+      -7.421814141330749,
+      4.908995005784476,
+      -0.09729943706477642
+    ],
+    "training_event_origins": 8826,
+    "last_training_event_end": "2024-12-31"
+  },
+  {
+    "year": 2026,
+    "ridge_success": true,
+    "ridge_message": "Optimization terminated successfully.",
+    "ridge_gradient_max": 3.619603880966778e-08,
+    "ridge_coefficients": [
+      -7.282791585382707,
+      4.772644157975773,
+      -0.08966158827282938
+    ],
+    "training_event_origins": 9084,
+    "last_training_event_end": "2025-12-31"
+  }
+]

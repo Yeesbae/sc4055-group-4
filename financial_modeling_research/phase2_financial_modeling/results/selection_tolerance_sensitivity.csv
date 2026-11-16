@@ -1,0 +1,6 @@
+tolerance,name,k,states,inner_brier,eligible_support,min_training_context_count
+0.0,binary30,2,4,0.009019919994647725,True,89
+0.00025,binary30,2,4,0.009019919994647725,True,89
+0.0005,ternary20_30,1,3,0.009306971127285613,True,722
+0.001,binary30,1,2,0.009755259183375104,True,722
+0.002,binary30,1,2,0.009755259183375104,True,722

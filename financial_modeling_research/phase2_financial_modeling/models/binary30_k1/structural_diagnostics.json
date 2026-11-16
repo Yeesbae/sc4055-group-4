@@ -1,0 +1,96 @@
+{
+  "zero_phase_Gram": [
+    [
+      1.0,
+      0.45163747040869245
+    ],
+    [
+      0.45163747040869245,
+      1.0
+    ]
+  ],
+  "eigenvalues_float64": [
+    0.5483625295913075,
+    1.4516374704086925
+  ],
+  "gram_recurrence_max_abs": 0.0,
+  "precision_decimal_digits": 90,
+  "cholesky_squared_pivots_90digit": [
+    "0.999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+    "0.796023595322837468105921991915089655895084517410814267426171285458419984150875472504482705"
+  ],
+  "all_90digit_pivots_positive": true,
+  "rank_status": "full rank numerically supported at 90 digits, not an exact symbolic Gram-rank proof",
+  "analytic_validity": "G is PSD, unit diagonal and recurrent by synchronization after k outputs; independent of rank tolerance",
+  "no_global_optimization": true,
+  "memory_states_columns": [
+    [
+      1.0,
+      0.45163747040869245
+    ],
+    [
+      0.0,
+      0.8922015441159231
+    ]
+  ],
+  "Kraus": [
+    [
+      [
+        0.9945261206108668,
+        -0.10448825495097366
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.04719081115347628,
+        0.449165261368062
+      ],
+      [
+        0.09322458240923695,
+        0.8873177404726341
+      ]
+    ]
+  ],
+  "recurrence_residual": 1.1102230246251565e-16,
+  "completeness_residual": 1.962615573354719e-17,
+  "stationary_classical_entropy": 0.3998414968430291,
+  "stationary_quantum_entropy": 0.3352806760288501,
+  "condition_number_S": 1.627028646141955,
+  "instrument_numerically_valid": true,
+  "partition": {
+    "D_c": 2,
+    "blocks": [
+      0,
+      1
+    ],
+    "refinement_class_counts": [
+      2,
+      2
+    ],
+    "exact_equality": "rational counts plus rational Dirichlet prior; no distance tolerance",
+    "scope": "causal states of this positive fitted finite-order process only"
+  },
+  "probability_rank": {
+    "prime": 1000000007,
+    "rank_mod_p": 2,
+    "determinant_mod_p": 420937558,
+    "rational_probability_rank_exact": 2,
+    "quantum_dimension_lower_bound": 2,
+    "classical_hidden_dimension_lower_bound": 2,
+    "proof": "All states reached after k outputs; positive prefix weights. Conditional length-k matrix is an invertible row-scaled Hankel submatrix when determinant mod p is nonzero. A fixed D-dimensional instrument has probability rank at most D^2.",
+    "limitation": "rank mod p below D is only a lower bound, not proof of rank deficiency"
+  },
+  "registers": {
+    "classical_predictive_states": 2,
+    "conventional_memory_qubits_upper_bound": 1,
+    "future_output_qubits_L6": 6,
+    "count_workspace_qubits": 3,
+    "event_flag": 1,
+    "total_width_upper_bound_design": 11,
+    "note": "register design estimate; no compiled circuit; ternary invalid padded label must have zero amplitude"
+  }
+}

@@ -1,0 +1,1009 @@
+{
+  "model_version": "V3.0-Phase3-1.0",
+  "tag": "ternary20_30_k2",
+  "observation": "ternary20_30",
+  "thresholds": [
+    20.0,
+    30.0
+  ],
+  "indexing": "oldest to newest, state integer is base-m encoding; symbols >= threshold use upper bin",
+  "state_labels": [
+    "00",
+    "01",
+    "02",
+    "10",
+    "11",
+    "12",
+    "20",
+    "21",
+    "22"
+  ],
+  "order": 2,
+  "alphabet": [
+    0,
+    1,
+    2
+  ],
+  "alpha_per_symbol": 0.5,
+  "counts": [
+    [
+      5426,
+      184,
+      1
+    ],
+    [
+      101,
+      151,
+      2
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      185,
+      70,
+      0
+    ],
+    [
+      154,
+      2124,
+      71
+    ],
+    [
+      0,
+      28,
+      64
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      74,
+      19
+    ],
+    [
+      0,
+      64,
+      580
+    ]
+  ],
+  "emission_probabilities": [
+    [
+      0.9668596881959911,
+      0.03287305122494432,
+      0.00026726057906458796
+    ],
+    [
+      0.3972602739726027,
+      0.5929549902152642,
+      0.009784735812133072
+    ],
+    [
+      0.2,
+      0.6,
+      0.2
+    ],
+    [
+      0.723196881091618,
+      0.27485380116959063,
+      0.001949317738791423
+    ],
+    [
+      0.06573069559668156,
+      0.9038502446288024,
+      0.03041905977451606
+    ],
+    [
+      0.0053475935828877,
+      0.3048128342245989,
+      0.6898395721925134
+    ],
+    [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    [
+      0.005291005291005291,
+      0.7883597883597884,
+      0.20634920634920634
+    ],
+    [
+      0.000774593338497289,
+      0.09992254066615028,
+      0.8993028659953525
+    ]
+  ],
+  "emission_probabilities_rational": [
+    [
+      "10853/11225",
+      "369/11225",
+      "3/11225"
+    ],
+    [
+      "29/73",
+      "303/511",
+      "5/511"
+    ],
+    [
+      "1/5",
+      "3/5",
+      "1/5"
+    ],
+    [
+      "371/513",
+      "47/171",
+      "1/513"
+    ],
+    [
+      "103/1567",
+      "4249/4701",
+      "143/4701"
+    ],
+    [
+      "1/187",
+      "57/187",
+      "129/187"
+    ],
+    [
+      "1/3",
+      "1/3",
+      "1/3"
+    ],
+    [
+      "1/189",
+      "149/189",
+      "13/63"
+    ],
+    [
+      "1/1291",
+      "129/1291",
+      "1161/1291"
+    ]
+  ],
+  "lambda": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      6,
+      7,
+      8
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      6,
+      7,
+      8
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      6,
+      7,
+      8
+    ]
+  ],
+  "T_emission": [
+    [
+      [
+        0.9668596881959911,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.3972602739726027,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        0.0,
+        0.0
+      ],
+      [
+        0.723196881091618,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.06573069559668156,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0053475935828877,
+        0.0,
+        0.0
+      ],
+      [
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.005291005291005291,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.000774593338497289,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.03287305122494432,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5929549902152642,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6,
+        0.0
+      ],
+      [
+        0.0,
+        0.27485380116959063,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9038502446288024,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3048128342245989,
+        0.0
+      ],
+      [
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7883597883597884,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.09992254066615028,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0,
+        0.00026726057906458796,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009784735812133072,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2
+      ],
+      [
+        0.0,
+        0.0,
+        0.001949317738791423,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.03041905977451606,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6898395721925134
+      ],
+      [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.20634920634920634,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8993028659953525
+      ]
+    ]
+  ],
+  "T": [
+    [
+      0.9668596881959911,
+      0.03287305122494432,
+      0.00026726057906458796,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.3972602739726027,
+      0.5929549902152642,
+      0.009784735812133072,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.2,
+      0.6,
+      0.2
+    ],
+    [
+      0.723196881091618,
+      0.27485380116959063,
+      0.001949317738791423,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.06573069559668156,
+      0.9038502446288024,
+      0.03041905977451606,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0053475935828877,
+      0.3048128342245989,
+      0.6898395721925134
+    ],
+    [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.005291005291005291,
+      0.7883597883597884,
+      0.20634920634920634,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.000774593338497289,
+      0.09992254066615028,
+      0.8993028659953525
+    ]
+  ],
+  "stationary_occupancy": [
+    0.6026845637583895,
+    0.027436241610738262,
+    0.00026845637583892615,
+    0.027543624161073827,
+    0.2524026845637583,
+    0.010040268456375833,
+    0.00016107382550335555,
+    0.010147651006711392,
+    0.06931543624161059
+  ],
+  "reachable_states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "reachability_proof": "Dirichlet smoothing gives every symbol positive probability; each length-k word reaches its own context from any start. Irreducible with self loops, unique stationary distribution.",
+  "causal_minimization": {
+    "D_c": 9,
+    "blocks": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "refinement_class_counts": [
+      9,
+      9
+    ],
+    "exact_equality": "rational counts plus rational Dirichlet prior; no distance tolerance",
+    "scope": "causal states of this positive fitted finite-order process only"
+  },
+  "event": {
+    "kind": "count",
+    "L": 6,
+    "K": 3
+  },
+  "high_symbol": 2,
+  "exact_model_event_probabilities": [
+    0.0020270020290881607,
+    0.04185742910685744,
+    0.29556214375511003,
+    0.009599516439426685,
+    0.07148326362037323,
+    0.6399294117055573,
+    0.11950470419762514,
+    0.18732674956641357,
+    0.7823739839399816
+  ],
+  "enumeration_DP_max_difference": 1.1102230246251565e-16,
+  "fit_coverage": [
+    "1990-01-02",
+    "2026-10-23"
+  ],
+  "data_manifest": "data/manifests/vix_manifest.json",
+  "threshold_rationale": "fixed 30 persistent stress proxy; 20 split tests moderate-state information. No official default/risk cutoff.",
+  "validation": "retrospective nested rolling-origin forecasts, prospective holdout unavailable; deployment refit is not retrospectively scored as an untouched model",
+  "uncertainty": "context_counts.csv contains nominal Dirichlet/Beta intervals; event_uncertainty.csv adds posterior propagation and dependent block refits; nonstationarity unresolved",
+  "role": "conditionally frozen research candidate, not statistically established best financial forecaster",
+  "state_meanings": [
+    "low -> low",
+    "low -> moderate",
+    "low -> high (abrupt stress entry)",
+    "moderate -> low (cooling)",
+    "moderate -> moderate",
+    "moderate -> high (stress entry)",
+    "high -> low (abrupt cooling)",
+    "high -> moderate (recent stress exit)",
+    "high -> high (persistent stress)"
+  ],
+  "context_estimates": [
+    {
+      "state": 0,
+      "history": "00",
+      "n": 5611,
+      "supported_n25": true,
+      "empirical_context_weight": 0.6033982148618131,
+      "stationary_weight": 0.6026845637583895,
+      "count_0": 5426,
+      "p_0": 0.9668596881959911,
+      "p_0_exact": "10853/11225",
+      "lo95_0": 0.9620216887470533,
+      "hi95_0": 0.9713826496772625,
+      "count_1": 184,
+      "p_1": 0.03287305122494432,
+      "p_1_exact": "369/11225",
+      "lo95_1": 0.028368464122248582,
+      "hi95_1": 0.037692855649455015,
+      "count_2": 1,
+      "p_2": 0.00026726057906458796,
+      "p_2_exact": "3/11225",
+      "lo95_2": 1.922862181035187e-05,
+      "hi95_2": 0.0008326585960524607,
+      "meaning": "low -> low",
+      "prior_weight_fraction": 0.00026726057906458796
+    },
+    {
+      "state": 1,
+      "history": "01",
+      "n": 254,
+      "supported_n25": true,
+      "empirical_context_weight": 0.027314765028497688,
+      "stationary_weight": 0.027436241610738262,
+      "count_0": 101,
+      "p_0": 0.3972602739726027,
+      "p_0_exact": "29/73",
+      "lo95_0": 0.33819200688362605,
+      "hi95_0": 0.45785224264751556,
+      "count_1": 151,
+      "p_1": 0.5929549902152642,
+      "p_1_exact": "303/511",
+      "lo95_1": 0.5321961413370846,
+      "hi95_1": 0.6523352389128505,
+      "count_2": 2,
+      "p_2": 0.009784735812133072,
+      "p_2_exact": "5/511",
+      "lo95_2": 0.0016365210577591882,
+      "hi95_2": 0.024968949281447925,
+      "meaning": "low -> moderate",
+      "prior_weight_fraction": 0.005870841487279843
+    },
+    {
+      "state": 2,
+      "history": "02",
+      "n": 1,
+      "supported_n25": false,
+      "empirical_context_weight": 0.00010753844499408539,
+      "stationary_weight": 0.00026845637583892615,
+      "count_0": 0,
+      "p_0": 0.2,
+      "p_0_exact": "1/5",
+      "lo95_0": 0.0002778292347840913,
+      "hi95_0": 0.7533583746206303,
+      "count_1": 1,
+      "p_1": 0.6,
+      "p_1_exact": "3/5",
+      "lo95_1": 0.08549879733383486,
+      "hi95_1": 0.9832631058403837,
+      "count_2": 0,
+      "p_2": 0.2,
+      "p_2_exact": "1/5",
+      "lo95_2": 0.0002778292347840913,
+      "hi95_2": 0.7533583746206303,
+      "meaning": "low -> high (abrupt stress entry)",
+      "prior_weight_fraction": 0.6
+    },
+    {
+      "state": 3,
+      "history": "10",
+      "n": 255,
+      "supported_n25": true,
+      "empirical_context_weight": 0.027422303473491772,
+      "stationary_weight": 0.027543624161073827,
+      "count_0": 185,
+      "p_0": 0.723196881091618,
+      "p_0_exact": "371/513",
+      "lo95_0": 0.6669644342424232,
+      "hi95_0": 0.7761328384506017,
+      "count_1": 70,
+      "p_1": 0.27485380116959063,
+      "p_1_exact": "47/171",
+      "lo95_1": 0.22205191606034352,
+      "hi95_1": 0.33098094531795036,
+      "count_2": 0,
+      "p_2": 0.001949317738791423,
+      "p_2_exact": "1/513",
+      "lo95_2": 1.919975962943267e-06,
+      "hi95_2": 0.009773779922500943,
+      "meaning": "moderate -> low (cooling)",
+      "prior_weight_fraction": 0.005847953216374269
+    },
+    {
+      "state": 4,
+      "history": "11",
+      "n": 2349,
+      "supported_n25": true,
+      "empirical_context_weight": 0.25260780729110655,
+      "stationary_weight": 0.2524026845637583,
+      "count_0": 154,
+      "p_0": 0.06573069559668156,
+      "p_0_exact": "103/1567",
+      "lo95_0": 0.05607000509742728,
+      "hi95_0": 0.0760911088621633,
+      "count_1": 2124,
+      "p_1": 0.9038502446288024,
+      "p_1_exact": "4249/4701",
+      "lo95_1": 0.8916141367098515,
+      "hi95_1": 0.9154355473895941,
+      "count_2": 71,
+      "p_2": 0.03041905977451606,
+      "p_2_exact": "143/4701",
+      "lo95_2": 0.02386421238574029,
+      "hi95_2": 0.037730115110344034,
+      "meaning": "moderate -> moderate",
+      "prior_weight_fraction": 0.0006381620931716656
+    },
+    {
+      "state": 5,
+      "history": "12",
+      "n": 92,
+      "supported_n25": true,
+      "empirical_context_weight": 0.009893536939455855,
+      "stationary_weight": 0.010040268456375833,
+      "count_0": 0,
+      "p_0": 0.0053475935828877,
+      "p_0_exact": "1/187",
+      "lo95_0": 5.294139886674433e-06,
+      "hi95_0": 0.026719233901569203,
+      "count_1": 28,
+      "p_1": 0.3048128342245989,
+      "p_1_exact": "57/187",
+      "lo95_1": 0.21623115668187556,
+      "hi95_1": 0.4013031246527595,
+      "count_2": 64,
+      "p_2": 0.6898395721925134,
+      "p_2_exact": "129/187",
+      "lo95_2": 0.5930051206303714,
+      "hi95_2": 0.778981805095557,
+      "meaning": "moderate -> high (stress entry)",
+      "prior_weight_fraction": 0.016042780748663103
+    },
+    {
+      "state": 6,
+      "history": "20",
+      "n": 0,
+      "supported_n25": false,
+      "empirical_context_weight": 0.0,
+      "stationary_weight": 0.00016107382550335555,
+      "count_0": 0,
+      "p_0": 0.3333333333333333,
+      "p_0_exact": "1/3",
+      "lo95_0": 0.000625,
+      "hi95_0": 0.9506249999999999,
+      "count_1": 0,
+      "p_1": 0.3333333333333333,
+      "p_1_exact": "1/3",
+      "lo95_1": 0.000625,
+      "hi95_1": 0.9506249999999999,
+      "count_2": 0,
+      "p_2": 0.3333333333333333,
+      "p_2_exact": "1/3",
+      "lo95_2": 0.000625,
+      "hi95_2": 0.9506249999999999,
+      "meaning": "high -> low (abrupt cooling)",
+      "prior_weight_fraction": 1.0
+    },
+    {
+      "state": 7,
+      "history": "21",
+      "n": 93,
+      "supported_n25": true,
+      "empirical_context_weight": 0.01000107538444994,
+      "stationary_weight": 0.010147651006711392,
+      "count_0": 0,
+      "p_0": 0.005291005291005291,
+      "p_0_exact": "1/189",
+      "lo95_0": 5.23766961295632e-06,
+      "hi95_0": 0.026438035434102197,
+      "count_1": 74,
+      "p_1": 0.7883597883597884,
+      "p_1_exact": "149/189",
+      "lo95_1": 0.7009967133389376,
+      "hi95_1": 0.8641744303221169,
+      "count_2": 19,
+      "p_2": 0.20634920634920634,
+      "p_2_exact": "13/63",
+      "lo95_2": 0.13140464147905762,
+      "hi95_2": 0.2930530394075493,
+      "meaning": "high -> moderate (recent stress exit)",
+      "prior_weight_fraction": 0.015873015873015872
+    },
+    {
+      "state": 8,
+      "history": "22",
+      "n": 644,
+      "supported_n25": true,
+      "empirical_context_weight": 0.06925475857619098,
+      "stationary_weight": 0.06931543624161059,
+      "count_0": 0,
+      "p_0": 0.000774593338497289,
+      "p_0_exact": "1/1291",
+      "lo95_0": 7.615887315693738e-07,
+      "hi95_0": 0.0038884151680504664,
+      "count_1": 64,
+      "p_1": 0.09992254066615028,
+      "p_1_exact": "129/1291",
+      "lo95_1": 0.07800838303972925,
+      "hi95_1": 0.12418318924312208,
+      "count_2": 580,
+      "p_2": 0.8993028659953525,
+      "p_2_exact": "1161/1291",
+      "lo95_2": 0.8749649025890353,
+      "hi95_2": 0.9212988614029507,
+      "meaning": "high -> high (persistent stress)",
+      "prior_weight_fraction": 0.0023237800154918666
+    }
+  ],
+  "exact_events_rational": {
+    "count3of6": [
+      "150527812208788782289964259730003277429/74261303170230759245842935354411462890625",
+      "6610396716267382077193464748444232497/157926486583582609651645263098988853125",
+      "381898493847860334412640842047049/1292108958866819420553861734203125",
+      "97738167689715643457131859263085204459/10181571989219166011523588196921090546875",
+      "34618435919251717031781453759882309569/484287288603667219812383810716468753125",
+      "44021947919295277156493857894418639/68791880970069465950287598728974375",
+      "7115472215429603194871483666414043629/59541356662100386032301685362111640625",
+      "10941973915862349136327937799429800387/58411166270640143295814001420173959375",
+      "31583128440302822853343746810543039899/40368326514708945700827859072320871875"
+    ],
+    "hit6": [
+      "19359156964219609674999223663415564651165215759/2240937325589799222517982242074471966838623046875",
+      "4039353096671255585886630784004801092003531283/42890847458713736320071894157318216186337109375",
+      "43935845919227360582335165368676296446699/98670919221915545251471049105625755859375",
+      "8613418369897265940769490708360351687350916789/307242988336988953537209324770834062981259765625",
+      "45163014653747914231697290664512961046037973927/306894785241116095039053233536610250063882421875",
+      "2879203045089488498815441056351849723285749/3690292378899641392405017236550403269140625",
+      "1949780128234391527620173580962218529210325877/5390227865561209711179110960891825666337890625",
+      "34094216336793395246463770332999899213138577327/111046166708176659787583397201823874783804296875",
+      "23657269661945154611779661636925211168446149/25476831343098593783929824879072570162890625"
+    ],
+    "run3in6": [
+      "323312505180048773434750705113761857087/169085259951971622903674126177328392578125",
+      "4797511859668068496867231590585866197/119860725561084743715622595332624696875",
+      "101349631153551237675426601412172331/355981715297257016762150432736515625",
+      "210397156027860133753740072218203730377/23182379961343815380735365718210102109375",
+      "980501271894694195946411179190294683/14320412505722402729741576757025153125",
+      "2779901462306355547172691255328919627/4437905384039137475634808728115228125",
+      "14012416345960939109787416084254618687/135569473458150967138803308293626328125",
+      "8000646933275196634706500162276393999/44332049180127233977011096903847490625",
+      "23502017776935780556045556651305999627/30638159629917253909329080577522778125"
+    ]
+  },
+  "first_entry": "hit6 probabilities apply only when current symbol is 0 or 1; current category 2 is not first entry",
+  "severe35_event": "not identifiable from category 2; requires a separately versioned observation alphabet/threshold, not an oracle change alone",
+  "validation_status": "retrospective reconstruction; new direct comparisons; unsupported 02/20 retained; exact equations and numerical recurrent instrument validated; full QAE not implemented",
+  "quantum_phase_class_dimension": 9,
+  "general_quantum_dimension_lower_bound": 3,
+  "phase3_decision": {
+    "version": "V3.0-Phase3-1.0",
+    "decision": "CONDITIONAL GO",
+    "principal_research_model": "three-level second-order VIX model, fixed thresholds 20/30 and Dirichlet(0.5) emissions",
+    "financial_superiority_established": false,
+    "supported_all_nine_states": false,
+    "sparse_states": {
+      "02": 1,
+      "20": 0
+    },
+    "Brier_difference_order2_minus_order1": -0.0004800162691242,
+    "paired_block60_interval": [
+      -0.0017268922668674,
+      0.0006087941919458
+    ],
+    "conditional_freeze": true,
+    "freeze_scope": "research demonstration and next-stage exact coherent implementation, not validated market deployment or unique optimal financial model",
+    "quantum_pure_unifilar_phase_class_dimension": 9,
+    "exact_phase_compression_to8_or4": "NO-GO by interval-certified all-phase rank proof",
+    "general_fixed_quantum_instrument_lower_dimension_bound": 3,
+    "general_mixed_or_multiKraus_compression": "unresolved; added coherent environments/purifications must be counted",
+    "quantum_circuit_status": "one/two-step core and 20-qubit Aer pilots pass; full six-step A/oracle/Grover/MLAE not implemented",
+    "course_feasibility": "conditional on actual full-circuit timing, cached unique-circuit strategy and correctness gates in the contract",
+    "fallbacks": [
+      "three-level order 1 preserves observation and event at lower width",
+      "binary order 2 is the smaller engineering representation"
+    ],
+    "required_conditions": [
+      "show unsupported/prior-dominated rows explicitly",
+      "do not claim six-step financial superiority",
+      "do not claim exact phase dimensional saving",
+      "validate all nine starts and the entire encoded oracle",
+      "run full-circuit timing gate before 100-200 replicate production",
+      "keep exact classical DP and separate statistical/model/quantum-estimator errors"
+    ],
+    "preserve_phase2_recommendation": "Phase 2 preferred a smaller model under its support/tolerance rule; this focused conditional research exception does not rewrite that result."
+  },
+  "pilot_resource_reference": "results/quantum_resource_pilot.json",
+  "implementation_contract": "Next_Phase_Implementation_Contract.md"
+}
